@@ -1,6 +1,7 @@
 import random
 import csv
 number_of_games = 10000
+data_collection = True
 
 # Initialize the deck with 52 cards (4 of each number)
 def initialize_deck():
@@ -94,5 +95,7 @@ def generate_data(num_games=1000):
         for transition in all_transitions:
             writer.writerow(transition)
 
-# Run data generation
-generate_data(number_of_games)
+if __name__ == '__main__':
+    if data_collection == True:
+        # Run data generation
+        generate_data(number_of_games)

@@ -2,9 +2,15 @@ import random
 import csv
 number_of_games = 10000
 
-# Draw a random card from the deck
-def draw_card():
-    return random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11])  # Face cards = 10, Ace = 11 or 1 (adjusted later)
+# Initialize the deck with 52 cards (4 of each number)
+def initialize_deck():
+    return [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4  # 4 of each card value (Ace = 11)
+
+# Draw a random card from the deck without replacement
+def draw_card(deck):
+    card = random.choice(deck)
+    deck.remove(card)  # Remove the drawn card from the deck to avoid duplicates
+    return card
 
 # Check if the hand contains an Ace and adjust value if necessary
 def adjust_for_ace(hand):
@@ -19,41 +25,41 @@ def adjust_for_ace(hand):
     return total, ace_present
 
 # Define the dealer's play logic
-def dealer_play(visible_card):
-    hand = [visible_card, draw_card()]
+def dealer_play(deck, visible_card):
+    hand = [visible_card, draw_card(deck)]
     total, _ = adjust_for_ace(hand)
     while total < 17:  # Dealer continues drawing until total is 17 or more
-        hand.append(draw_card())
+        hand.append(draw_card(deck))
         total, _ = adjust_for_ace(hand)
     return total
 
 # Play a single game and record state transitions
 def play_game():
     transitions = []
-    
+    deck = initialize_deck()  # Initialize a fresh deck at the start of each game
+
     # Initialize hands
-    agent_hand = [draw_card(), draw_card()]
-    dealer_hand = [draw_card(), draw_card()]
+    agent_hand = [draw_card(deck), draw_card(deck)]
+    dealer_hand = [draw_card(deck), draw_card(deck)]
     dealer_visible_card = dealer_hand[0]
     
     agent_total, agent_has_ace = adjust_for_ace(agent_hand)
-    dealer_visible_ace = dealer_visible_card == 11
     
     while True:
-        # Current state
-        state = (agent_total, agent_has_ace, dealer_visible_card, dealer_visible_ace)
+        # Current state without dealer_visible_ace
+        state = (agent_total, agent_has_ace, dealer_visible_card)
         
         # Randomly choose an action (for data generation; Q-learning will learn the best policy)
         action = random.choice(['hit', 'stand'])
         
         # State transition and reward
         if action == 'hit':
-            agent_hand.append(draw_card())
+            agent_hand.append(draw_card(deck))
             agent_total, agent_has_ace = adjust_for_ace(agent_hand)
-            next_state = (agent_total, agent_has_ace, dealer_visible_card, dealer_visible_ace)
+            next_state = (agent_total, agent_has_ace, dealer_visible_card)
             
             if agent_total > 21:  # Agent busts
-                reward = -1 if not dealer_visible_ace else -2
+                reward = -2 if dealer_visible_card != 11 else -1
                 transitions.append((state, action, reward, 'terminal'))
                 break
             else:
@@ -61,14 +67,14 @@ def play_game():
                 transitions.append((state, action, reward, next_state))
         
         elif action == 'stand':
-            dealer_total = dealer_play(dealer_visible_card)
+            dealer_total = dealer_play(deck, dealer_visible_card)
             
             if dealer_total > 21 or agent_total > dealer_total:
-                reward = 1 if not dealer_visible_ace else 2
+                reward = 2 if dealer_visible_card == 11 else 1
             elif agent_total < dealer_total:
-                reward = -1 if not dealer_visible_ace else -2
+                reward = -2 if dealer_visible_card != 11 else -1
             else:
-                reward = 0.5 if dealer_visible_ace else 0
+                reward = 0.5 if dealer_visible_card == 11 else 0
             
             transitions.append((state, action, reward, 'terminal'))
             break

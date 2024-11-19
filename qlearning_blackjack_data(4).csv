@@ -1,0 +1,16 @@
+state,action,reward,next_state
+"(15, False, 10)",1,-2,terminal
+"(16, False, 5)",0,0,"(20, False, 5)"
+"(20, False, 5)",0,-2,terminal
+"(19, False, 3)",1,-2,terminal
+"(20, False, 8)",0,-2,terminal
+"(20, False, 6)",1,1,terminal
+"(10, False, 5)",0,0,"(20, False, 5)"
+"(20, False, 5)",1,1,terminal
+"(17, True, 11)",1,0.5,terminal
+"(12, False, 10)",0,0,"(18, False, 10)"
+"(18, False, 10)",0,0,"(19, False, 10)"
+"(19, False, 10)",1,1,terminal
+"(19, False, 10)",0,0,"(21, False, 10)"
+"(21, False, 10)",0,-2,terminal
+"(7, False, 10)",1,-2,terminal

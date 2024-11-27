@@ -2,7 +2,7 @@ import random
 import csv
 import pandas as pd
 
-number_of_games = 1000
+number_of_games = 100
 data_collection = True
 
 # Initialize the deck with 52 cards (4 of each number)
@@ -91,11 +91,13 @@ def play_game():
 def generate_data(num_games = 10000):
     all_transitions = []
     all_transitions_num = []
+    state_mappings = []
+
     for _ in range(num_games):
         game_data = play_game()
         all_transitions.extend(game_data)
     
-    with open('qlearning_blackjack_data(6).csv', mode='w', newline='') as file:
+    with open('qlearning_blackjack_data(11).csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['state', 'action', 'reward', 'next_state'])
         for transition in all_transitions:
@@ -114,9 +116,10 @@ def generate_data(num_games = 10000):
 
     # Existing 100 tuples
     index = 1
-    for first in range(1, 11):
+    for first in range(4, 11):
         for third in third_entry_range:
             tuples_list_extended.append(((first, False, third), index))
+            state_mappings.append(((first, False, third), index))
             index += 1
 
     # Additional tuples up to 300 indexes
@@ -124,6 +127,7 @@ def generate_data(num_games = 10000):
         for third in third_entry_range:
             for second in second_entry_options:
                 tuples_list_extended.append(((first, second, third), index))
+                state_mappings.append(((first, second, third), index))
                 index += 1
 
     # Creating a DataFrame to display results
@@ -140,13 +144,21 @@ def generate_data(num_games = 10000):
             if all_transitions_num[i][3] == tuples_list_extended[k][0]:
                 all_transitions_num[i][3] = tuples_list_extended[k][1]
         if all_transitions_num[i][3] == 'terminal':
-                all_transitions_num[i][3] = 321
+                all_transitions_num[i][3] = 291
+
+    state_mapping_file_path = 'state_mappings_with_numbers.csv'
+    with open(state_mapping_file_path, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['State', 'Number'])
+        for state, number in state_mappings:
+            writer.writerow([state, number])
     
-    with open('qlearning_blackjack_data(6)_num.csv', mode='w', newline='') as file:
+    with open('qlearning_blackjack_data(11)_num.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['state', 'action', 'reward', 'next_state'])
         for transition in all_transitions_num:
             writer.writerow(transition)
+
 
    
 
@@ -154,3 +166,4 @@ if __name__ == '__main__':
     if data_collection == True:
         # Run data generation
         generate_data(number_of_games)
+

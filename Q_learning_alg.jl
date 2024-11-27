@@ -42,13 +42,13 @@ cd("c:/Users/jackr/OneDrive - Stanford/CS238FinalProject")
 data = CSV.read("qlearning_blackjack_data(6)_num.csv", DataFrame)
 
 # Initialize and train the model
-num_states = 321
+num_states = 291
 num_actions = 2
 discount=0.95
 learning_rate=0.1
 Q = zeros(num_states, num_actions)
 model = QLearning(num_states, num_actions, discount, Q, learning_rate)
-iteration = 1000
+iteration = 3000
 train_qlearning(model, data, iteration)
 
 
@@ -64,7 +64,7 @@ println(time_2 - time_1)
 ## writing the file
 function small_policy(file_name::String)
     open(file_name, "w") do f  # Opens the file in write mode
-        for si in 1:321
+        for si in 1:291
             write(f, @sprintf("%d\n", policy[si])) 
         end
     end

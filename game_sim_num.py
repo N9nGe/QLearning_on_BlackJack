@@ -2,7 +2,7 @@ import random
 import csv
 import pandas as pd
 
-number_of_games = 100
+number_of_games = 1000
 data_collection = True
 
 # Initialize the deck with 52 cards (4 of each number)
@@ -88,7 +88,7 @@ def play_game():
 
 
 # Generate multiple games and save to CSV
-def generate_data(num_games = 10000):
+def generate_data(num_games = 1000):
     all_transitions = []
     all_transitions_num = []
     state_mappings = []
@@ -97,7 +97,7 @@ def generate_data(num_games = 10000):
         game_data = play_game()
         all_transitions.extend(game_data)
     
-    with open('qlearning_blackjack_data(11).csv', mode='w', newline='') as file:
+    with open('blackjack_data_for_qlearning.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['state', 'action', 'reward', 'next_state'])
         for transition in all_transitions:
@@ -153,7 +153,7 @@ def generate_data(num_games = 10000):
         for state, number in state_mappings:
             writer.writerow([state, number])
     
-    with open('qlearning_blackjack_data(11)_num.csv', mode='w', newline='') as file:
+    with open('blackjack_data_for_qlearning_num.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['state', 'action', 'reward', 'next_state'])
         for transition in all_transitions_num:

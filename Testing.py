@@ -1,40 +1,11 @@
 import random
 import csv
+from game_sim_num import (initialize_deck, draw_card, adjust_for_ace, dealer_play)
 
 # Load the policy from the file
 def load_policy(policy_file):
     with open(policy_file, "r") as f:
         return [int(line.strip()) for line in f.readlines()]
-
-# Initialize the deck
-def initialize_deck():
-    return [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
-
-# Draw a random card from the deck
-def draw_card(deck):
-    card = random.choice(deck)
-    deck.remove(card)
-    return card
-
-# Adjust the value of Aces
-def adjust_for_ace(hand):
-    total = sum(hand)
-    ace_present = 11 in hand
-    while total > 21 and ace_present:
-        if 11 in hand:
-            hand[hand.index(11)] = 1
-        total = sum(hand)
-        ace_present = 11 in hand
-    return total, ace_present
-
-# Dealer's logic
-def dealer_play(deck, visible_card):
-    hand = [visible_card, draw_card(deck)]
-    total, _ = adjust_for_ace(hand)
-    while total < 17:
-        hand.append(draw_card(deck))
-        total, _ = adjust_for_ace(hand)
-    return total
 
 # Map the state to the numerical index using mappings
 def map_state_to_index(state, state_mappings):
@@ -168,5 +139,6 @@ if __name__ == '__main__':
     state_mapping_file = "state_mappings_with_numbers.csv"
     output_csv = "blackjack_simulation_results.csv"
     test_policy_and_log(policy_file, state_mapping_file, output_csv, num_games=500)
+
 
 

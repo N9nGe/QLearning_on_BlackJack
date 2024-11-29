@@ -85,8 +85,6 @@ def play_game():
     return transitions
 
 
-
-
 # Generate multiple games and save to CSV
 def generate_data(num_games = 1000):
     all_transitions = []
@@ -166,4 +164,5 @@ if __name__ == '__main__':
     if data_collection == True:
         # Run data generation
         generate_data(number_of_games)
+
 

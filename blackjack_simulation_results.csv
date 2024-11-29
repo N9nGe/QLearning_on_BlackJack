@@ -1,743 +1,732 @@
 Game ID,State Name,State Number,Action,Reward,Next State Name,Next State Number,Game Result
-1,"(19, True, 7)",241,2,-2,terminal,291,Lose
-2,"(17, False, 10)",208,2,-2,terminal,291,Lose
-3,"(18, False, 10)",228,1,-2,terminal,291,Lose
-4,"(11, False, 4)",76,1,0,"(21, False, 4)",276
-4,"(21, False, 4)",276,2,1,terminal,291,Win
-5,"(13, False, 6)",120,2,1,terminal,291,Win
-6,"(8, False, 10)",49,1,0,"(15, False, 10)",168
-6,"(15, False, 10)",168,2,-2,terminal,291,Lose
-7,"(17, True, 9)",205,1,0,"(14, False, 9)",146
-7,"(14, False, 9)",146,1,0,"(15, False, 9)",166
-7,"(15, False, 9)",166,1,-2,terminal,291,Lose
-8,"(12, False, 9)",106,2,-2,terminal,291,Lose
-9,"(18, False, 5)",218,2,1,terminal,291,Win
-10,"(21, True, 7)",281,2,1,terminal,291,Win
-11,"(5, False, 10)",19,2,-2,terminal,291,Lose
-12,"(11, False, 2)",72,1,0,"(12, False, 2)",92
-12,"(12, False, 2)",92,1,0,"(17, False, 2)",192
-12,"(17, False, 2)",192,2,-2,terminal,291,Lose
-13,"(16, True, 6)",179,1,0,"(16, False, 6)",180
-13,"(16, False, 6)",180,2,-2,terminal,291,Lose
-14,"(16, False, 10)",188,1,-2,terminal,291,Lose
-15,"(12, False, 2)",92,1,0,"(19, False, 2)",232
-15,"(19, False, 2)",232,2,0,terminal,291,Tie
-16,"(16, False, 2)",172,2,1,terminal,291,Win
-17,"(21, True, 2)",271,2,1,terminal,291,Win
-18,"(21, True, 10)",287,2,1,terminal,291,Win
-19,"(19, False, 9)",246,2,1,terminal,291,Win
-20,"(14, False, 2)",132,2,-2,terminal,291,Lose
-21,"(12, False, 6)",100,2,-2,terminal,291,Lose
-22,"(16, True, 3)",173,2,1,terminal,291,Win
-23,"(11, False, 9)",86,1,0,"(13, False, 9)",126
-23,"(13, False, 9)",126,1,0,"(20, False, 9)",266
-23,"(20, False, 9)",266,2,1,terminal,291,Win
-24,"(15, False, 2)",152,2,1,terminal,291,Win
-25,"(6, False, 10)",29,1,0,"(8, False, 10)",49
-25,"(8, False, 10)",49,1,0,"(18, False, 10)",228
-25,"(18, False, 10)",228,1,0,"(21, False, 10)",288
-25,"(21, False, 10)",288,2,1,terminal,291,Win
-26,"(18, False, 3)",214,2,1,terminal,291,Win
-27,"(14, False, 5)",138,1,0,"(18, False, 5)",218
-27,"(18, False, 5)",218,2,-2,terminal,291,Lose
-28,"(13, False, 10)",128,2,-2,terminal,291,Lose
-29,"(13, False, 6)",120,2,-2,terminal,291,Lose
-30,"(13, False, 6)",120,2,1,terminal,291,Win
-31,"(19, True, 7)",241,2,-2,terminal,291,Lose
-32,"(19, True, 10)",247,1,0,"(19, False, 10)",248
-32,"(19, False, 10)",248,2,-2,terminal,291,Lose
-33,"(19, False, 4)",236,2,0,terminal,291,Tie
-34,"(19, True, 8)",243,2,0,terminal,291,Tie
-35,"(12, False, 10)",108,1,0,"(13, False, 10)",128
-35,"(13, False, 10)",128,2,-2,terminal,291,Lose
-36,"(19, True, 10)",247,1,0,"(15, False, 10)",168
-36,"(15, False, 10)",168,2,-2,terminal,291,Lose
-37,"(7, False, 10)",39,1,0,"(18, True, 10)",227
-37,"(18, True, 10)",227,1,0,"(18, False, 10)",228
-37,"(18, False, 10)",228,1,-2,terminal,291,Lose
-38,"(13, False, 2)",112,1,-2,terminal,291,Lose
-39,"(21, True, 11)",289,2,0.5,terminal,291,Tie
-40,"(6, False, 9)",28,1,0,"(11, False, 9)",86
-40,"(11, False, 9)",86,1,0,"(13, False, 9)",126
-40,"(13, False, 9)",126,1,0,"(16, False, 9)",186
-40,"(16, False, 9)",186,1,0,"(21, False, 9)",286
-40,"(21, False, 9)",286,2,1,terminal,291,Win
-41,"(21, True, 10)",287,2,1,terminal,291,Win
-42,"(16, False, 8)",184,2,-2,terminal,291,Lose
-43,"(8, False, 5)",44,2,1,terminal,291,Win
-44,"(6, False, 10)",29,1,0,"(13, False, 10)",128
-44,"(13, False, 10)",128,2,1,terminal,291,Win
-45,"(18, False, 9)",226,2,1,terminal,291,Win
-46,"(12, False, 10)",108,1,0,"(17, False, 10)",208
-46,"(17, False, 10)",208,2,-2,terminal,291,Lose
-47,"(13, False, 10)",128,2,-2,terminal,291,Lose
-48,"(13, False, 10)",128,2,-2,terminal,291,Lose
-49,"(10, False, 10)",69,1,0,"(17, False, 10)",208
-49,"(17, False, 10)",208,2,-2,terminal,291,Lose
-50,"(19, False, 5)",238,2,1,terminal,291,Win
-51,"(14, False, 10)",148,1,-2,terminal,291,Lose
-52,"(15, False, 8)",164,2,-2,terminal,291,Lose
-53,"(10, False, 5)",64,1,0,"(14, False, 5)",138
-53,"(14, False, 5)",138,1,0,"(16, False, 5)",178
-53,"(16, False, 5)",178,2,1,terminal,291,Win
-54,"(9, False, 11)",60,1,0,"(19, False, 11)",250
-54,"(19, False, 11)",250,2,2,terminal,291,Win
-55,"(20, False, 6)",260,2,1,terminal,291,Win
-56,"(14, False, 11)",150,1,0,"(21, False, 11)",290
-56,"(21, False, 11)",290,2,0.5,terminal,291,Tie
-57,"(15, False, 10)",168,2,-2,terminal,291,Lose
-58,"(20, False, 10)",268,2,-2,terminal,291,Lose
-59,"(15, True, 8)",163,1,0,"(20, True, 8)",263
-59,"(20, True, 8)",263,2,0,terminal,291,Tie
-60,"(21, True, 10)",287,2,1,terminal,291,Win
-61,"(12, False, 9)",106,2,-2,terminal,291,Lose
-62,"(11, False, 8)",84,1,0,"(19, False, 8)",244
-62,"(19, False, 8)",244,2,1,terminal,291,Win
-63,"(21, True, 10)",287,2,1,terminal,291,Win
-64,"(13, False, 4)",116,2,-2,terminal,291,Lose
-65,"(17, False, 9)",206,2,-2,terminal,291,Lose
-66,"(21, True, 8)",283,2,1,terminal,291,Win
-67,"(15, False, 3)",154,1,-2,terminal,291,Lose
-68,"(12, False, 4)",96,2,1,terminal,291,Win
-69,"(18, False, 5)",218,2,1,terminal,291,Win
-70,"(20, False, 8)",264,2,1,terminal,291,Win
-71,"(13, True, 6)",119,1,0,"(12, False, 6)",100
-71,"(12, False, 6)",100,2,1,terminal,291,Win
-72,"(13, True, 9)",125,1,0,"(13, False, 9)",126
-72,"(13, False, 9)",126,1,0,"(15, False, 9)",166
-72,"(15, False, 9)",166,1,0,"(21, False, 9)",286
-72,"(21, False, 9)",286,2,1,terminal,291,Win
-73,"(6, False, 2)",21,2,-2,terminal,291,Lose
-74,"(16, False, 11)",190,2,-1,terminal,291,Lose
-75,"(16, False, 4)",176,2,-2,terminal,291,Lose
-76,"(7, False, 8)",37,1,0,"(11, False, 8)",84
-76,"(11, False, 8)",84,1,0,"(21, False, 8)",284
-76,"(21, False, 8)",284,2,1,terminal,291,Win
-77,"(19, False, 10)",248,2,1,terminal,291,Win
-78,"(13, False, 11)",130,1,0,"(15, False, 11)",170
-78,"(15, False, 11)",170,2,-1,terminal,291,Lose
-79,"(7, False, 10)",39,1,0,"(11, False, 10)",88
-79,"(11, False, 10)",88,1,0,"(12, False, 10)",108
-79,"(12, False, 10)",108,1,0,"(18, False, 10)",228
-79,"(18, False, 10)",228,1,0,"(21, False, 10)",288
-79,"(21, False, 10)",288,2,1,terminal,291,Win
-80,"(10, False, 5)",64,1,0,"(20, False, 5)",258
-80,"(20, False, 5)",258,2,1,terminal,291,Win
-81,"(11, False, 2)",72,1,0,"(13, False, 2)",112
-81,"(13, False, 2)",112,1,0,"(19, False, 2)",232
-81,"(19, False, 2)",232,2,1,terminal,291,Win
-82,"(20, False, 6)",260,2,1,terminal,291,Win
-83,"(18, False, 6)",220,2,1,terminal,291,Win
-84,"(21, True, 10)",287,2,0,terminal,291,Tie
-85,"(8, False, 8)",47,1,0,"(17, False, 8)",204
-85,"(17, False, 8)",204,2,-2,terminal,291,Lose
-86,"(14, False, 8)",144,1,0,"(19, False, 8)",244
-86,"(19, False, 8)",244,2,1,terminal,291,Win
-87,"(21, True, 7)",281,2,1,terminal,291,Win
-88,"(19, False, 10)",248,2,1,terminal,291,Win
-89,"(19, True, 10)",247,1,0,"(21, True, 10)",287
-89,"(21, True, 10)",287,2,1,terminal,291,Win
-90,"(14, False, 7)",142,1,0,"(19, False, 7)",242
-90,"(19, False, 7)",242,2,1,terminal,291,Win
-91,"(11, False, 11)",90,1,0,"(21, False, 11)",290
-91,"(21, False, 11)",290,2,2,terminal,291,Win
-92,"(12, False, 10)",108,1,0,"(18, False, 10)",228
-92,"(18, False, 10)",228,1,-2,terminal,291,Lose
-93,"(15, False, 2)",152,2,-2,terminal,291,Lose
-94,"(17, True, 10)",207,1,0,"(21, True, 10)",287
-94,"(21, True, 10)",287,2,1,terminal,291,Win
-95,"(15, False, 8)",164,2,-2,terminal,291,Lose
-96,"(20, False, 7)",262,2,1,terminal,291,Win
-97,"(13, False, 5)",118,2,-2,terminal,291,Lose
-98,"(18, False, 3)",214,2,1,terminal,291,Win
-99,"(15, False, 2)",152,2,1,terminal,291,Win
-100,"(13, False, 6)",120,2,1,terminal,291,Win
-101,"(12, True, 2)",91,1,0,"(20, True, 2)",251
-101,"(20, True, 2)",251,2,1,terminal,291,Win
-102,"(7, False, 11)",40,1,0,"(13, False, 11)",130
-102,"(13, False, 11)",130,1,0,"(15, False, 11)",170
-102,"(15, False, 11)",170,2,-1,terminal,291,Lose
-103,"(17, False, 3)",194,2,1,terminal,291,Win
-104,"(18, True, 10)",227,1,0,"(20, True, 10)",267
-104,"(20, True, 10)",267,2,0,terminal,291,Tie
-105,"(10, False, 10)",69,1,0,"(19, False, 10)",248
-105,"(19, False, 10)",248,2,-2,terminal,291,Lose
-106,"(13, True, 9)",125,1,0,"(13, False, 9)",126
-106,"(13, False, 9)",126,1,0,"(19, False, 9)",246
-106,"(19, False, 9)",246,2,1,terminal,291,Win
-107,"(4, False, 6)",5,2,1,terminal,291,Win
-108,"(5, False, 9)",18,1,0,"(16, True, 9)",185
-108,"(16, True, 9)",185,1,0,"(15, False, 9)",166
-108,"(15, False, 9)",166,1,-2,terminal,291,Lose
-109,"(13, False, 3)",114,2,-2,terminal,291,Lose
-110,"(17, True, 10)",207,1,0,"(12, False, 10)",108
-110,"(12, False, 10)",108,1,-2,terminal,291,Lose
-111,"(7, False, 10)",39,1,0,"(18, True, 10)",227
-111,"(18, True, 10)",227,1,0,"(19, True, 10)",247
-111,"(19, True, 10)",247,1,0,"(21, True, 10)",287
-111,"(21, True, 10)",287,2,1,terminal,291,Win
-112,"(15, False, 8)",164,2,-2,terminal,291,Lose
-113,"(12, False, 8)",104,1,0,"(19, False, 8)",244
-113,"(19, False, 8)",244,2,-2,terminal,291,Lose
-114,"(19, False, 10)",248,2,-2,terminal,291,Lose
-115,"(11, False, 5)",78,1,0,"(18, False, 5)",218
-115,"(18, False, 5)",218,2,1,terminal,291,Win
-116,"(15, False, 9)",166,1,0,"(19, False, 9)",246
-116,"(19, False, 9)",246,2,0,terminal,291,Tie
-117,"(15, True, 10)",167,1,0,"(17, True, 10)",207
-117,"(17, True, 10)",207,1,0,"(13, False, 10)",128
-117,"(13, False, 10)",128,2,-2,terminal,291,Lose
-118,"(20, False, 2)",252,2,1,terminal,291,Win
-119,"(14, False, 11)",150,1,-1,terminal,291,Lose
-120,"(8, False, 9)",48,1,0,"(14, False, 9)",146
-120,"(14, False, 9)",146,1,0,"(21, False, 9)",286
-120,"(21, False, 9)",286,2,1,terminal,291,Win
-121,"(20, False, 4)",256,2,0,terminal,291,Tie
-122,"(10, False, 11)",70,1,0,"(20, False, 11)",270
-122,"(20, False, 11)",270,2,2,terminal,291,Win
-123,"(7, False, 9)",38,1,0,"(9, False, 9)",58
-123,"(9, False, 9)",58,1,0,"(13, False, 9)",126
-123,"(13, False, 9)",126,1,-2,terminal,291,Lose
-124,"(11, False, 10)",88,1,0,"(21, False, 10)",288
-124,"(21, False, 10)",288,2,1,terminal,291,Win
-125,"(14, False, 4)",136,2,1,terminal,291,Win
-126,"(19, False, 3)",234,2,1,terminal,291,Win
-127,"(14, False, 5)",138,1,0,"(21, False, 5)",278
-127,"(21, False, 5)",278,2,1,terminal,291,Win
-128,"(20, False, 4)",256,2,1,terminal,291,Win
-129,"(20, False, 4)",256,2,1,terminal,291,Win
-130,"(20, False, 3)",254,2,0,terminal,291,Tie
-131,"(20, False, 4)",256,2,1,terminal,291,Win
-132,"(8, False, 2)",41,1,0,"(19, True, 2)",231
-132,"(19, True, 2)",231,2,1,terminal,291,Win
-133,"(14, False, 6)",140,1,0,"(17, False, 6)",200
-133,"(17, False, 6)",200,2,1,terminal,291,Win
-134,"(14, True, 6)",139,1,0,"(18, True, 6)",219
-134,"(18, True, 6)",219,1,0,"(18, False, 6)",220
-134,"(18, False, 6)",220,2,-2,terminal,291,Lose
-135,"(21, True, 10)",287,2,1,terminal,291,Win
-136,"(9, False, 5)",54,1,0,"(19, False, 5)",238
-136,"(19, False, 5)",238,2,0,terminal,291,Tie
-137,"(12, False, 8)",104,1,0,"(21, False, 8)",284
-137,"(21, False, 8)",284,2,0,terminal,291,Tie
-138,"(9, False, 6)",55,1,0,"(18, False, 6)",220
-138,"(18, False, 6)",220,2,1,terminal,291,Win
-139,"(13, False, 6)",120,2,1,terminal,291,Win
-140,"(17, False, 10)",208,2,1,terminal,291,Win
-141,"(14, True, 10)",147,1,0,"(12, False, 10)",108
-141,"(12, False, 10)",108,1,-2,terminal,291,Lose
-142,"(7, False, 10)",39,1,0,"(13, False, 10)",128
-142,"(13, False, 10)",128,2,-2,terminal,291,Lose
-143,"(13, False, 6)",120,2,1,terminal,291,Win
-144,"(17, False, 10)",208,2,-2,terminal,291,Lose
-145,"(13, False, 9)",126,1,0,"(19, False, 9)",246
-145,"(19, False, 9)",246,2,-2,terminal,291,Lose
-146,"(20, False, 9)",266,2,1,terminal,291,Win
-147,"(20, False, 11)",270,2,2,terminal,291,Win
-148,"(20, False, 3)",254,2,1,terminal,291,Win
-149,"(14, False, 9)",146,1,0,"(21, False, 9)",286
-149,"(21, False, 9)",286,2,1,terminal,291,Win
-150,"(21, True, 7)",281,2,0,terminal,291,Tie
-151,"(12, False, 9)",106,2,-2,terminal,291,Lose
-152,"(16, True, 10)",187,1,0,"(14, False, 10)",148
-152,"(14, False, 10)",148,1,-2,terminal,291,Lose
-153,"(8, False, 10)",49,1,0,"(18, False, 10)",228
-153,"(18, False, 10)",228,1,0,"(21, False, 10)",288
-153,"(21, False, 10)",288,2,1,terminal,291,Win
-154,"(13, False, 8)",124,1,0,"(16, False, 8)",184
-154,"(16, False, 8)",184,2,-2,terminal,291,Lose
-155,"(13, True, 7)",121,1,0,"(20, True, 7)",261
-155,"(20, True, 7)",261,2,1,terminal,291,Win
-156,"(19, False, 10)",248,2,-2,terminal,291,Lose
-157,"(19, False, 2)",232,2,-2,terminal,291,Lose
-158,"(17, False, 11)",210,2,2,terminal,291,Win
-159,"(13, False, 10)",128,2,-2,terminal,291,Lose
-160,"(6, False, 3)",22,2,1,terminal,291,Win
-161,"(20, False, 9)",266,2,1,terminal,291,Win
-162,"(14, False, 7)",142,1,0,"(15, False, 7)",162
-162,"(15, False, 7)",162,2,-2,terminal,291,Lose
-163,"(19, False, 3)",234,2,0,terminal,291,Tie
-164,"(18, True, 10)",227,1,0,"(18, False, 10)",228
-164,"(18, False, 10)",228,1,-2,terminal,291,Lose
-165,"(15, False, 6)",160,2,-2,terminal,291,Lose
-166,"(12, False, 4)",96,2,1,terminal,291,Win
-167,"(19, False, 2)",232,2,-2,terminal,291,Lose
-168,"(20, False, 6)",260,2,1,terminal,291,Win
-169,"(10, False, 10)",69,1,0,"(14, False, 10)",148
-169,"(14, False, 10)",148,1,-2,terminal,291,Lose
-170,"(11, False, 5)",78,1,0,"(15, False, 5)",158
-170,"(15, False, 5)",158,2,1,terminal,291,Win
-171,"(19, False, 10)",248,2,-2,terminal,291,Lose
-172,"(16, False, 4)",176,2,-2,terminal,291,Lose
-173,"(10, False, 10)",69,1,0,"(21, True, 10)",287
+1,"(18, False, 10)",228,1,-2,terminal,291,Lose
+2,"(12, False, 5)",98,1,0,"(13, False, 5)",118
+2,"(13, False, 5)",118,2,-2,terminal,291,Lose
+3,"(15, False, 5)",158,2,-2,terminal,291,Lose
+4,"(10, False, 10)",69,1,0,"(15, False, 10)",168
+4,"(15, False, 10)",168,2,-2,terminal,291,Lose
+5,"(10, False, 11)",70,1,0,"(16, False, 11)",190
+5,"(16, False, 11)",190,2,-1,terminal,291,Lose
+6,"(12, False, 8)",104,1,0,"(17, False, 8)",204
+6,"(17, False, 8)",204,2,-2,terminal,291,Lose
+7,"(17, False, 3)",194,2,1,terminal,291,Win
+8,"(14, False, 2)",132,2,-2,terminal,291,Lose
+9,"(13, False, 2)",112,1,0,"(14, False, 2)",132
+9,"(14, False, 2)",132,2,-2,terminal,291,Lose
+10,"(20, False, 10)",268,2,1,terminal,291,Win
+11,"(20, False, 8)",264,2,1,terminal,291,Win
+12,"(15, False, 5)",158,2,1,terminal,291,Win
+13,"(6, False, 10)",29,1,0,"(8, False, 10)",49
+13,"(8, False, 10)",49,1,0,"(16, False, 10)",188
+13,"(16, False, 10)",188,1,-2,terminal,291,Lose
+14,"(18, False, 2)",212,2,-2,terminal,291,Lose
+15,"(18, True, 3)",213,2,1,terminal,291,Win
+16,"(14, False, 7)",142,1,-2,terminal,291,Lose
+17,"(18, False, 11)",230,2,-1,terminal,291,Lose
+18,"(15, True, 10)",167,1,0,"(14, False, 10)",148
+18,"(14, False, 10)",148,1,-2,terminal,291,Lose
+19,"(12, False, 10)",108,1,0,"(17, False, 10)",208
+19,"(17, False, 10)",208,2,-2,terminal,291,Lose
+20,"(18, False, 9)",226,2,-2,terminal,291,Lose
+21,"(12, False, 9)",106,2,-2,terminal,291,Lose
+22,"(11, False, 9)",86,1,0,"(12, False, 9)",106
+22,"(12, False, 9)",106,2,-2,terminal,291,Lose
+23,"(11, False, 5)",78,1,0,"(21, False, 5)",278
+23,"(21, False, 5)",278,2,1,terminal,291,Win
+24,"(14, False, 5)",138,1,-2,terminal,291,Lose
+25,"(11, False, 3)",74,1,0,"(17, False, 3)",194
+25,"(17, False, 3)",194,2,1,terminal,291,Win
+26,"(12, False, 10)",108,1,0,"(16, False, 10)",188
+26,"(16, False, 10)",188,1,0,"(18, False, 10)",228
+26,"(18, False, 10)",228,1,-2,terminal,291,Lose
+27,"(16, True, 10)",187,1,0,"(16, False, 10)",188
+27,"(16, False, 10)",188,1,0,"(18, False, 10)",228
+27,"(18, False, 10)",228,1,-2,terminal,291,Lose
+28,"(14, False, 7)",142,1,0,"(20, False, 7)",262
+28,"(20, False, 7)",262,2,1,terminal,291,Win
+29,"(14, False, 5)",138,1,0,"(21, False, 5)",278
+29,"(21, False, 5)",278,2,1,terminal,291,Win
+30,"(11, False, 7)",82,1,0,"(17, False, 7)",202
+30,"(17, False, 7)",202,2,0,terminal,291,Tie
+31,"(6, False, 10)",29,1,0,"(17, True, 10)",207
+31,"(17, True, 10)",207,1,0,"(17, False, 10)",208
+31,"(17, False, 10)",208,2,-2,terminal,291,Lose
+32,"(18, True, 6)",219,1,0,"(18, False, 6)",220
+32,"(18, False, 6)",220,2,-2,terminal,291,Lose
+33,"(14, False, 6)",140,1,-2,terminal,291,Lose
+34,"(20, False, 6)",260,2,1,terminal,291,Win
+35,"(16, False, 7)",182,2,1,terminal,291,Win
+36,"(10, False, 10)",69,1,0,"(20, False, 10)",268
+36,"(20, False, 10)",268,2,1,terminal,291,Win
+37,"(5, False, 6)",15,1,0,"(7, False, 6)",35
+37,"(7, False, 6)",35,2,1,terminal,291,Win
+38,"(20, True, 10)",267,2,0,terminal,291,Tie
+39,"(13, False, 10)",128,2,-2,terminal,291,Lose
+40,"(20, False, 3)",254,2,-2,terminal,291,Lose
+41,"(10, False, 3)",62,1,0,"(20, False, 3)",254
+41,"(20, False, 3)",254,2,0,terminal,291,Tie
+42,"(13, False, 10)",128,2,-2,terminal,291,Lose
+43,"(16, False, 10)",188,1,0,"(21, False, 10)",288
+43,"(21, False, 10)",288,2,1,terminal,291,Win
+44,"(20, False, 8)",264,2,1,terminal,291,Win
+45,"(12, False, 11)",110,1,0,"(18, False, 11)",230
+45,"(18, False, 11)",230,2,-1,terminal,291,Lose
+46,"(11, False, 10)",88,1,0,"(12, False, 10)",108
+46,"(12, False, 10)",108,1,0,"(20, False, 10)",268
+46,"(20, False, 10)",268,2,0,terminal,291,Tie
+47,"(11, False, 11)",90,1,0,"(21, False, 11)",290
+47,"(21, False, 11)",290,2,0.5,terminal,291,Tie
+48,"(15, False, 7)",162,2,-2,terminal,291,Lose
+49,"(14, False, 11)",150,1,-1,terminal,291,Lose
+50,"(12, False, 9)",106,2,-2,terminal,291,Lose
+51,"(14, False, 7)",142,1,0,"(17, False, 7)",202
+51,"(17, False, 7)",202,2,-2,terminal,291,Lose
+52,"(21, True, 8)",283,2,0,terminal,291,Tie
+53,"(16, False, 3)",174,1,-2,terminal,291,Lose
+54,"(14, False, 3)",134,1,0,"(17, False, 3)",194
+54,"(17, False, 3)",194,2,0,terminal,291,Tie
+55,"(16, False, 2)",172,2,-2,terminal,291,Lose
+56,"(8, False, 10)",49,1,0,"(11, False, 10)",88
+56,"(11, False, 10)",88,1,0,"(21, False, 10)",288
+56,"(21, False, 10)",288,2,1,terminal,291,Win
+57,"(14, False, 4)",136,2,1,terminal,291,Win
+58,"(18, False, 3)",214,2,1,terminal,291,Win
+59,"(10, False, 10)",69,1,0,"(15, False, 10)",168
+59,"(15, False, 10)",168,2,-2,terminal,291,Lose
+60,"(15, True, 10)",167,1,0,"(15, False, 10)",168
+60,"(15, False, 10)",168,2,-2,terminal,291,Lose
+61,"(13, False, 10)",128,2,-2,terminal,291,Lose
+62,"(16, True, 7)",181,1,0,"(21, True, 7)",281
+62,"(21, True, 7)",281,2,1,terminal,291,Win
+63,"(20, False, 11)",270,2,0.5,terminal,291,Tie
+64,"(9, False, 9)",58,1,0,"(19, False, 9)",246
+64,"(19, False, 9)",246,2,0,terminal,291,Tie
+65,"(17, False, 10)",208,2,-2,terminal,291,Lose
+66,"(17, False, 4)",196,2,-2,terminal,291,Lose
+67,"(17, False, 11)",210,2,0.5,terminal,291,Tie
+68,"(12, False, 8)",104,1,0,"(19, False, 8)",244
+68,"(19, False, 8)",244,2,0,terminal,291,Tie
+69,"(21, True, 7)",281,2,1,terminal,291,Win
+70,"(12, False, 8)",104,1,0,"(21, False, 8)",284
+70,"(21, False, 8)",284,2,1,terminal,291,Win
+71,"(13, False, 10)",128,2,-2,terminal,291,Lose
+72,"(15, False, 5)",158,2,1,terminal,291,Win
+73,"(14, False, 10)",148,1,0,"(19, False, 10)",248
+73,"(19, False, 10)",248,2,1,terminal,291,Win
+74,"(16, True, 8)",183,1,0,"(16, False, 8)",184
+74,"(16, False, 8)",184,2,-2,terminal,291,Lose
+75,"(19, False, 10)",248,2,1,terminal,291,Win
+76,"(13, False, 10)",128,2,-2,terminal,291,Lose
+77,"(21, True, 6)",279,2,1,terminal,291,Win
+78,"(16, False, 5)",178,2,1,terminal,291,Win
+79,"(18, False, 10)",228,1,-2,terminal,291,Lose
+80,"(12, False, 9)",106,2,-2,terminal,291,Lose
+81,"(14, True, 10)",147,1,0,"(12, False, 10)",108
+81,"(12, False, 10)",108,1,0,"(21, False, 10)",288
+81,"(21, False, 10)",288,2,1,terminal,291,Win
+82,"(5, False, 10)",19,2,-2,terminal,291,Lose
+83,"(13, False, 6)",120,2,-2,terminal,291,Lose
+84,"(19, False, 10)",248,2,-2,terminal,291,Lose
+85,"(12, False, 10)",108,1,0,"(18, False, 10)",228
+85,"(18, False, 10)",228,1,0,"(19, False, 10)",248
+85,"(19, False, 10)",248,2,1,terminal,291,Win
+86,"(7, False, 10)",39,1,0,"(13, False, 10)",128
+86,"(13, False, 10)",128,2,-2,terminal,291,Lose
+87,"(8, False, 9)",48,1,0,"(12, False, 9)",106
+87,"(12, False, 9)",106,2,-2,terminal,291,Lose
+88,"(15, False, 5)",158,2,1,terminal,291,Win
+89,"(18, False, 7)",222,2,1,terminal,291,Win
+90,"(18, False, 9)",226,2,-2,terminal,291,Lose
+91,"(17, False, 4)",196,2,-2,terminal,291,Lose
+92,"(14, False, 5)",138,1,-2,terminal,291,Lose
+93,"(15, False, 6)",160,2,-2,terminal,291,Lose
+94,"(15, True, 4)",155,1,0,"(21, True, 4)",275
+94,"(21, True, 4)",275,2,1,terminal,291,Win
+95,"(13, False, 11)",130,1,-1,terminal,291,Lose
+96,"(16, False, 10)",188,1,-2,terminal,291,Lose
+97,"(8, False, 7)",46,1,0,"(11, False, 7)",82
+97,"(11, False, 7)",82,1,0,"(21, False, 7)",282
+97,"(21, False, 7)",282,2,1,terminal,291,Win
+98,"(20, False, 10)",268,2,0,terminal,291,Tie
+99,"(11, False, 10)",88,1,0,"(17, False, 10)",208
+99,"(17, False, 10)",208,2,-2,terminal,291,Lose
+100,"(14, False, 9)",146,1,-2,terminal,291,Lose
+101,"(13, False, 8)",124,1,0,"(17, False, 8)",204
+101,"(17, False, 8)",204,2,-2,terminal,291,Lose
+102,"(10, False, 8)",67,1,0,"(15, False, 8)",164
+102,"(15, False, 8)",164,2,-2,terminal,291,Lose
+103,"(15, False, 6)",160,2,1,terminal,291,Win
+104,"(14, False, 11)",150,1,-1,terminal,291,Lose
+105,"(20, False, 10)",268,2,0,terminal,291,Tie
+106,"(21, True, 10)",287,2,1,terminal,291,Win
+107,"(13, True, 6)",119,1,0,"(19, True, 6)",239
+107,"(19, True, 6)",239,2,1,terminal,291,Win
+108,"(14, False, 5)",138,1,-2,terminal,291,Lose
+109,"(19, False, 10)",248,2,-2,terminal,291,Lose
+110,"(10, False, 9)",68,1,0,"(15, False, 9)",166
+110,"(15, False, 9)",166,1,0,"(21, False, 9)",286
+110,"(21, False, 9)",286,2,1,terminal,291,Win
+111,"(8, False, 11)",50,1,0,"(12, False, 11)",110
+111,"(12, False, 11)",110,1,0,"(13, False, 11)",130
+111,"(13, False, 11)",130,1,0,"(21, False, 11)",290
+111,"(21, False, 11)",290,2,2,terminal,291,Win
+112,"(18, False, 9)",226,2,1,terminal,291,Win
+113,"(15, False, 5)",158,2,-2,terminal,291,Lose
+114,"(12, False, 10)",108,1,0,"(15, False, 10)",168
+114,"(15, False, 10)",168,2,-2,terminal,291,Lose
+115,"(16, True, 6)",179,1,0,"(16, False, 6)",180
+115,"(16, False, 6)",180,2,-2,terminal,291,Lose
+116,"(16, True, 7)",181,1,0,"(16, False, 7)",182
+116,"(16, False, 7)",182,2,-2,terminal,291,Lose
+117,"(11, False, 9)",86,1,0,"(20, False, 9)",266
+117,"(20, False, 9)",266,2,1,terminal,291,Win
+118,"(14, False, 10)",148,1,0,"(19, False, 10)",248
+118,"(19, False, 10)",248,2,-2,terminal,291,Lose
+119,"(21, True, 2)",271,2,1,terminal,291,Win
+120,"(13, False, 9)",126,1,-2,terminal,291,Lose
+121,"(8, False, 9)",48,1,0,"(16, False, 9)",186
+121,"(16, False, 9)",186,1,-2,terminal,291,Lose
+122,"(13, False, 10)",128,2,-2,terminal,291,Lose
+123,"(19, False, 4)",236,2,0,terminal,291,Tie
+124,"(12, False, 3)",94,2,-2,terminal,291,Lose
+125,"(14, False, 5)",138,1,0,"(15, False, 5)",158
+125,"(15, False, 5)",158,2,1,terminal,291,Win
+126,"(13, False, 4)",116,2,1,terminal,291,Win
+127,"(18, False, 4)",216,2,1,terminal,291,Win
+128,"(4, False, 8)",7,2,-2,terminal,291,Lose
+129,"(17, True, 3)",193,1,0,"(20, True, 3)",253
+129,"(20, True, 3)",253,2,1,terminal,291,Win
+130,"(11, False, 6)",80,1,0,"(19, False, 6)",240
+130,"(19, False, 6)",240,2,1,terminal,291,Win
+131,"(20, False, 6)",260,2,1,terminal,291,Win
+132,"(13, False, 9)",126,1,0,"(14, False, 9)",146
+132,"(14, False, 9)",146,1,-2,terminal,291,Lose
+133,"(20, False, 10)",268,2,0,terminal,291,Tie
+134,"(21, True, 11)",289,2,2,terminal,291,Win
+135,"(20, False, 10)",268,2,1,terminal,291,Win
+136,"(19, True, 3)",233,2,1,terminal,291,Win
+137,"(20, False, 11)",270,2,2,terminal,291,Win
+138,"(10, False, 9)",68,1,0,"(20, False, 9)",266
+138,"(20, False, 9)",266,2,0,terminal,291,Tie
+139,"(19, False, 7)",242,2,1,terminal,291,Win
+140,"(20, False, 7)",262,2,1,terminal,291,Win
+141,"(12, False, 11)",110,1,0,"(17, False, 11)",210
+141,"(17, False, 11)",210,2,-1,terminal,291,Lose
+142,"(17, False, 4)",196,2,-2,terminal,291,Lose
+143,"(15, False, 2)",152,2,-2,terminal,291,Lose
+144,"(20, False, 8)",264,2,-2,terminal,291,Lose
+145,"(11, False, 5)",78,1,0,"(14, False, 5)",138
+145,"(14, False, 5)",138,1,0,"(19, False, 5)",238
+145,"(19, False, 5)",238,2,1,terminal,291,Win
+146,"(19, False, 11)",250,2,2,terminal,291,Win
+147,"(11, False, 3)",74,1,0,"(19, False, 3)",234
+147,"(19, False, 3)",234,2,1,terminal,291,Win
+148,"(15, False, 2)",152,2,-2,terminal,291,Lose
+149,"(16, False, 5)",178,2,1,terminal,291,Win
+150,"(15, False, 8)",164,2,-2,terminal,291,Lose
+151,"(15, False, 6)",160,2,1,terminal,291,Win
+152,"(14, False, 4)",136,2,1,terminal,291,Win
+153,"(12, False, 5)",98,1,0,"(20, False, 5)",258
+153,"(20, False, 5)",258,2,0,terminal,291,Tie
+154,"(16, False, 11)",190,2,-1,terminal,291,Lose
+155,"(13, False, 10)",128,2,-2,terminal,291,Lose
+156,"(14, False, 2)",132,2,-2,terminal,291,Lose
+157,"(10, False, 10)",69,1,0,"(17, False, 10)",208
+157,"(17, False, 10)",208,2,-2,terminal,291,Lose
+158,"(7, False, 11)",40,1,0,"(15, False, 11)",170
+158,"(15, False, 11)",170,2,-1,terminal,291,Lose
+159,"(18, False, 2)",212,2,0,terminal,291,Tie
+160,"(20, False, 10)",268,2,-2,terminal,291,Lose
+161,"(12, False, 10)",108,1,-2,terminal,291,Lose
+162,"(15, True, 9)",165,2,1,terminal,291,Win
+163,"(13, False, 3)",114,2,-2,terminal,291,Lose
+164,"(10, False, 3)",62,1,0,"(19, False, 3)",234
+164,"(19, False, 3)",234,2,1,terminal,291,Win
+165,"(10, False, 10)",69,1,0,"(21, True, 10)",287
+165,"(21, True, 10)",287,2,1,terminal,291,Win
+166,"(13, False, 3)",114,2,-2,terminal,291,Lose
+167,"(6, False, 10)",29,1,0,"(16, False, 10)",188
+167,"(16, False, 10)",188,1,-2,terminal,291,Lose
+168,"(14, True, 10)",147,1,0,"(17, True, 10)",207
+168,"(17, True, 10)",207,1,0,"(18, True, 10)",227
+168,"(18, True, 10)",227,1,0,"(18, False, 10)",228
+168,"(18, False, 10)",228,1,-2,terminal,291,Lose
+169,"(13, False, 3)",114,2,1,terminal,291,Win
+170,"(15, True, 11)",169,1,0,"(14, False, 11)",150
+170,"(14, False, 11)",150,1,-1,terminal,291,Lose
+171,"(21, True, 8)",283,2,1,terminal,291,Win
+172,"(13, False, 8)",124,1,0,"(16, False, 8)",184
+172,"(16, False, 8)",184,2,1,terminal,291,Win
 173,"(21, True, 10)",287,2,1,terminal,291,Win
-174,"(8, False, 2)",41,1,0,"(19, True, 2)",231
-174,"(19, True, 2)",231,2,-2,terminal,291,Lose
-175,"(13, False, 2)",112,1,-2,terminal,291,Lose
-176,"(12, False, 10)",108,1,-2,terminal,291,Lose
-177,"(13, False, 2)",112,1,-2,terminal,291,Lose
-178,"(14, False, 3)",134,1,0,"(16, False, 3)",174
-178,"(16, False, 3)",174,1,-2,terminal,291,Lose
-179,"(15, True, 5)",157,1,0,"(17, True, 5)",197
-179,"(17, True, 5)",197,1,0,"(12, False, 5)",98
-179,"(12, False, 5)",98,1,-2,terminal,291,Lose
-180,"(16, False, 11)",190,2,-1,terminal,291,Lose
-181,"(13, False, 11)",130,1,0,"(18, False, 11)",230
-181,"(18, False, 11)",230,2,-1,terminal,291,Lose
-182,"(14, False, 2)",132,2,-2,terminal,291,Lose
-183,"(19, False, 6)",240,2,0,terminal,291,Tie
-184,"(21, True, 9)",285,2,1,terminal,291,Win
-185,"(8, False, 10)",49,1,0,"(12, False, 10)",108
-185,"(12, False, 10)",108,1,0,"(21, False, 10)",288
-185,"(21, False, 10)",288,2,1,terminal,291,Win
-186,"(19, False, 4)",236,2,1,terminal,291,Win
-187,"(5, False, 9)",18,1,0,"(10, False, 9)",68
-187,"(10, False, 9)",68,1,0,"(15, False, 9)",166
-187,"(15, False, 9)",166,1,0,"(21, False, 9)",286
-187,"(21, False, 9)",286,2,1,terminal,291,Win
-188,"(13, False, 10)",128,2,-2,terminal,291,Lose
-189,"(14, False, 10)",148,1,0,"(18, False, 10)",228
-189,"(18, False, 10)",228,1,-2,terminal,291,Lose
-190,"(13, False, 3)",114,2,-2,terminal,291,Lose
-191,"(12, False, 10)",108,1,-2,terminal,291,Lose
-192,"(13, False, 10)",128,2,-2,terminal,291,Lose
-193,"(18, False, 8)",224,2,-2,terminal,291,Lose
-194,"(13, False, 11)",130,1,-1,terminal,291,Lose
-195,"(19, False, 10)",248,2,1,terminal,291,Win
-196,"(11, False, 9)",86,1,0,"(16, False, 9)",186
-196,"(16, False, 9)",186,1,-2,terminal,291,Lose
-197,"(7, False, 10)",39,1,0,"(16, False, 10)",188
-197,"(16, False, 10)",188,1,0,"(19, False, 10)",248
-197,"(19, False, 10)",248,2,-2,terminal,291,Lose
-198,"(12, False, 10)",108,1,-2,terminal,291,Lose
-199,"(21, True, 10)",287,2,1,terminal,291,Win
+174,"(19, False, 10)",248,2,1,terminal,291,Win
+175,"(18, False, 7)",222,2,1,terminal,291,Win
+176,"(19, False, 8)",244,2,1,terminal,291,Win
+177,"(9, False, 9)",58,1,0,"(19, False, 9)",246
+177,"(19, False, 9)",246,2,-2,terminal,291,Lose
+178,"(18, False, 3)",214,2,1,terminal,291,Win
+179,"(14, False, 11)",150,1,0,"(15, False, 11)",170
+179,"(15, False, 11)",170,2,-1,terminal,291,Lose
+180,"(15, False, 10)",168,2,-2,terminal,291,Lose
+181,"(11, False, 2)",72,1,0,"(16, False, 2)",172
+181,"(16, False, 2)",172,2,-2,terminal,291,Lose
+182,"(8, False, 10)",49,1,0,"(19, True, 10)",247
+182,"(19, True, 10)",247,1,0,"(21, True, 10)",287
+182,"(21, True, 10)",287,2,0,terminal,291,Tie
+183,"(16, False, 10)",188,1,-2,terminal,291,Lose
+184,"(12, False, 8)",104,1,0,"(15, False, 8)",164
+184,"(15, False, 8)",164,2,1,terminal,291,Win
+185,"(18, True, 7)",221,2,-2,terminal,291,Lose
+186,"(18, False, 10)",228,1,-2,terminal,291,Lose
+187,"(12, False, 2)",92,1,0,"(14, False, 2)",132
+187,"(14, False, 2)",132,2,1,terminal,291,Win
+188,"(13, False, 4)",116,2,-2,terminal,291,Lose
+189,"(14, False, 11)",150,1,-1,terminal,291,Lose
+190,"(12, False, 5)",98,1,0,"(19, False, 5)",238
+190,"(19, False, 5)",238,2,1,terminal,291,Win
+191,"(10, False, 11)",70,1,0,"(13, False, 11)",130
+191,"(13, False, 11)",130,1,0,"(16, False, 11)",190
+191,"(16, False, 11)",190,2,-1,terminal,291,Lose
+192,"(14, False, 7)",142,1,-2,terminal,291,Lose
+193,"(19, False, 7)",242,2,-2,terminal,291,Lose
+194,"(13, False, 10)",128,2,1,terminal,291,Win
+195,"(14, False, 10)",148,1,-2,terminal,291,Lose
+196,"(15, False, 10)",168,2,-2,terminal,291,Lose
+197,"(11, False, 10)",88,1,0,"(21, False, 10)",288
+197,"(21, False, 10)",288,2,0,terminal,291,Tie
+198,"(20, False, 9)",266,2,0,terminal,291,Tie
+199,"(9, False, 5)",54,1,0,"(19, False, 5)",238
+199,"(19, False, 5)",238,2,1,terminal,291,Win
 200,"(20, False, 5)",258,2,1,terminal,291,Win
-201,"(12, True, 6)",99,1,0,"(12, False, 6)",100
-201,"(12, False, 6)",100,2,-2,terminal,291,Lose
-202,"(16, False, 10)",188,1,-2,terminal,291,Lose
-203,"(13, False, 8)",124,1,0,"(18, False, 8)",224
-203,"(18, False, 8)",224,2,-2,terminal,291,Lose
-204,"(14, False, 9)",146,1,-2,terminal,291,Lose
-205,"(16, False, 10)",188,1,-2,terminal,291,Lose
-206,"(15, False, 2)",152,2,-2,terminal,291,Lose
-207,"(15, True, 10)",167,1,0,"(13, False, 10)",128
-207,"(13, False, 10)",128,2,1,terminal,291,Win
-208,"(8, False, 4)",43,1,0,"(12, False, 4)",96
-208,"(12, False, 4)",96,2,-2,terminal,291,Lose
-209,"(15, False, 2)",152,2,1,terminal,291,Win
-210,"(19, False, 10)",248,2,1,terminal,291,Win
-211,"(14, False, 4)",136,2,1,terminal,291,Win
-212,"(16, False, 9)",186,1,-2,terminal,291,Lose
-213,"(11, False, 10)",88,1,0,"(12, False, 10)",108
-213,"(12, False, 10)",108,1,0,"(20, False, 10)",268
+201,"(9, False, 6)",55,1,0,"(18, False, 6)",220
+201,"(18, False, 6)",220,2,1,terminal,291,Win
+202,"(15, False, 9)",166,1,-2,terminal,291,Lose
+203,"(21, True, 6)",279,2,1,terminal,291,Win
+204,"(13, False, 10)",128,2,-2,terminal,291,Lose
+205,"(17, False, 4)",196,2,-2,terminal,291,Lose
+206,"(11, False, 2)",72,1,0,"(21, False, 2)",272
+206,"(21, False, 2)",272,2,1,terminal,291,Win
+207,"(16, False, 2)",172,2,-2,terminal,291,Lose
+208,"(4, False, 3)",2,1,0,"(12, False, 3)",94
+208,"(12, False, 3)",94,2,-2,terminal,291,Lose
+209,"(16, False, 4)",176,2,-2,terminal,291,Lose
+210,"(15, False, 10)",168,2,-2,terminal,291,Lose
+211,"(14, False, 8)",144,1,0,"(20, False, 8)",264
+211,"(20, False, 8)",264,2,1,terminal,291,Win
+212,"(7, False, 10)",39,1,0,"(9, False, 10)",59
+212,"(9, False, 10)",59,1,0,"(19, False, 10)",248
+212,"(19, False, 10)",248,2,-2,terminal,291,Lose
 213,"(20, False, 10)",268,2,0,terminal,291,Tie
-214,"(11, False, 9)",86,1,0,"(14, False, 9)",146
-214,"(14, False, 9)",146,1,-2,terminal,291,Lose
-215,"(19, False, 8)",244,2,1,terminal,291,Win
-216,"(17, False, 9)",206,2,1,terminal,291,Win
-217,"(7, False, 7)",36,1,0,"(12, False, 7)",102
-217,"(12, False, 7)",102,1,-2,terminal,291,Lose
-218,"(8, False, 6)",45,1,0,"(15, False, 6)",160
-218,"(15, False, 6)",160,2,1,terminal,291,Win
-219,"(17, False, 10)",208,2,-2,terminal,291,Lose
-220,"(17, False, 11)",210,2,-1,terminal,291,Lose
-221,"(15, False, 10)",168,2,-2,terminal,291,Lose
-222,"(9, False, 9)",58,1,0,"(19, False, 9)",246
-222,"(19, False, 9)",246,2,0,terminal,291,Tie
-223,"(13, False, 10)",128,2,1,terminal,291,Win
-224,"(8, False, 3)",42,1,0,"(19, True, 3)",233
-224,"(19, True, 3)",233,2,1,terminal,291,Win
-225,"(21, True, 4)",275,2,1,terminal,291,Win
-226,"(5, False, 8)",17,1,0,"(8, False, 8)",47
-226,"(8, False, 8)",47,1,0,"(15, False, 8)",164
-226,"(15, False, 8)",164,2,-2,terminal,291,Lose
-227,"(13, False, 10)",128,2,-2,terminal,291,Lose
+214,"(17, True, 9)",205,1,0,"(17, False, 9)",206
+214,"(17, False, 9)",206,2,-2,terminal,291,Lose
+215,"(18, False, 2)",212,2,-2,terminal,291,Lose
+216,"(18, False, 10)",228,1,-2,terminal,291,Lose
+217,"(15, True, 10)",167,1,0,"(19, True, 10)",247
+217,"(19, True, 10)",247,1,0,"(15, False, 10)",168
+217,"(15, False, 10)",168,2,1,terminal,291,Win
+218,"(13, False, 10)",128,2,-2,terminal,291,Lose
+219,"(12, False, 10)",108,1,-2,terminal,291,Lose
+220,"(13, False, 3)",114,2,1,terminal,291,Win
+221,"(7, False, 11)",40,1,0,"(17, False, 11)",210
+221,"(17, False, 11)",210,2,-1,terminal,291,Lose
+222,"(16, False, 5)",178,2,-2,terminal,291,Lose
+223,"(15, False, 10)",168,2,-2,terminal,291,Lose
+224,"(15, True, 7)",161,1,0,"(15, False, 7)",162
+224,"(15, False, 7)",162,2,1,terminal,291,Win
+225,"(20, False, 3)",254,2,1,terminal,291,Win
+226,"(17, False, 7)",202,2,1,terminal,291,Win
+227,"(20, False, 7)",262,2,1,terminal,291,Win
+228,"(16, False, 10)",188,1,0,"(19, False, 10)",248
 228,"(19, False, 10)",248,2,-2,terminal,291,Lose
-229,"(6, False, 2)",21,2,-2,terminal,291,Lose
-230,"(12, False, 3)",94,2,1,terminal,291,Win
-231,"(15, False, 10)",168,2,-2,terminal,291,Lose
-232,"(14, False, 11)",150,1,-1,terminal,291,Lose
-233,"(17, False, 6)",200,2,-2,terminal,291,Lose
-234,"(10, False, 8)",67,1,0,"(21, True, 8)",283
-234,"(21, True, 8)",283,2,1,terminal,291,Win
-235,"(14, False, 7)",142,1,0,"(16, False, 7)",182
-235,"(16, False, 7)",182,2,-2,terminal,291,Lose
-236,"(10, False, 10)",69,1,0,"(18, False, 10)",228
-236,"(18, False, 10)",228,1,-2,terminal,291,Lose
-237,"(15, False, 10)",168,2,-2,terminal,291,Lose
-238,"(15, False, 4)",156,2,-2,terminal,291,Lose
-239,"(21, True, 3)",273,2,1,terminal,291,Win
-240,"(16, False, 9)",186,1,0,"(19, False, 9)",246
-240,"(19, False, 9)",246,2,1,terminal,291,Win
-241,"(9, False, 10)",59,1,0,"(19, False, 10)",248
-241,"(19, False, 10)",248,2,1,terminal,291,Win
-242,"(15, False, 8)",164,2,-2,terminal,291,Lose
-243,"(8, False, 11)",50,1,0,"(14, False, 11)",150
-243,"(14, False, 11)",150,1,0,"(21, False, 11)",290
-243,"(21, False, 11)",290,2,0.5,terminal,291,Tie
-244,"(8, False, 3)",42,1,0,"(18, False, 3)",214
-244,"(18, False, 3)",214,2,-2,terminal,291,Lose
-245,"(19, False, 2)",232,2,1,terminal,291,Win
-246,"(15, False, 3)",154,1,-2,terminal,291,Lose
-247,"(7, False, 3)",32,1,0,"(18, True, 3)",213
-247,"(18, True, 3)",213,2,-2,terminal,291,Lose
+229,"(14, True, 10)",147,1,0,"(18, True, 10)",227
+229,"(18, True, 10)",227,1,0,"(13, False, 10)",128
+229,"(13, False, 10)",128,2,-2,terminal,291,Lose
+230,"(13, False, 2)",112,1,0,"(19, False, 2)",232
+230,"(19, False, 2)",232,2,1,terminal,291,Win
+231,"(16, False, 10)",188,1,-2,terminal,291,Lose
+232,"(19, False, 6)",240,2,1,terminal,291,Win
+233,"(13, False, 10)",128,2,1,terminal,291,Win
+234,"(19, True, 11)",249,2,-1,terminal,291,Lose
+235,"(8, False, 2)",41,1,0,"(18, False, 2)",212
+235,"(18, False, 2)",212,2,-2,terminal,291,Lose
+236,"(17, False, 11)",210,2,2,terminal,291,Win
+237,"(5, False, 9)",18,1,0,"(15, False, 9)",166
+237,"(15, False, 9)",166,1,0,"(19, False, 9)",246
+237,"(19, False, 9)",246,2,1,terminal,291,Win
+238,"(20, False, 9)",266,2,0,terminal,291,Tie
+239,"(19, True, 4)",235,2,-2,terminal,291,Lose
+240,"(13, False, 11)",130,1,-1,terminal,291,Lose
+241,"(10, False, 8)",67,1,0,"(16, False, 8)",184
+241,"(16, False, 8)",184,2,-2,terminal,291,Lose
+242,"(12, False, 3)",94,2,1,terminal,291,Win
+243,"(20, False, 6)",260,2,1,terminal,291,Win
+244,"(18, False, 7)",222,2,1,terminal,291,Win
+245,"(18, False, 9)",226,2,1,terminal,291,Win
+246,"(14, True, 10)",147,1,0,"(13, False, 10)",128
+246,"(13, False, 10)",128,2,-2,terminal,291,Lose
+247,"(20, False, 7)",262,2,1,terminal,291,Win
 248,"(14, False, 4)",136,2,1,terminal,291,Win
-249,"(14, False, 8)",144,1,0,"(18, False, 8)",224
-249,"(18, False, 8)",224,2,0,terminal,291,Tie
-250,"(14, True, 5)",137,1,0,"(20, True, 5)",257
-250,"(20, True, 5)",257,2,-2,terminal,291,Lose
-251,"(7, False, 10)",39,1,0,"(17, False, 10)",208
-251,"(17, False, 10)",208,2,-2,terminal,291,Lose
-252,"(6, False, 11)",30,1,0,"(9, False, 11)",60
-252,"(9, False, 11)",60,1,0,"(19, False, 11)",250
-252,"(19, False, 11)",250,2,-1,terminal,291,Lose
-253,"(8, False, 10)",49,1,0,"(11, False, 10)",88
-253,"(11, False, 10)",88,1,0,"(21, False, 10)",288
-253,"(21, False, 10)",288,2,0,terminal,291,Tie
-254,"(14, True, 10)",147,1,0,"(14, False, 10)",148
-254,"(14, False, 10)",148,1,-2,terminal,291,Lose
-255,"(10, False, 8)",67,1,0,"(17, False, 8)",204
-255,"(17, False, 8)",204,2,1,terminal,291,Win
-256,"(18, False, 9)",226,2,-2,terminal,291,Lose
-257,"(13, False, 10)",128,2,-2,terminal,291,Lose
-258,"(15, False, 11)",170,2,-1,terminal,291,Lose
-259,"(12, False, 3)",94,2,1,terminal,291,Win
-260,"(10, False, 11)",70,1,0,"(16, False, 11)",190
-260,"(16, False, 11)",190,2,-1,terminal,291,Lose
-261,"(13, False, 2)",112,1,-2,terminal,291,Lose
-262,"(16, True, 11)",189,2,-1,terminal,291,Lose
-263,"(13, False, 8)",124,1,-2,terminal,291,Lose
-264,"(11, False, 8)",84,1,0,"(21, False, 8)",284
-264,"(21, False, 8)",284,2,1,terminal,291,Win
-265,"(15, False, 10)",168,2,-2,terminal,291,Lose
-266,"(5, False, 7)",16,1,0,"(13, False, 7)",122
-266,"(13, False, 7)",122,2,1,terminal,291,Win
-267,"(7, False, 6)",35,2,-2,terminal,291,Lose
-268,"(12, False, 7)",102,1,-2,terminal,291,Lose
-269,"(13, True, 11)",129,1,0,"(18, True, 11)",229
-269,"(18, True, 11)",229,1,0,"(14, False, 11)",150
-269,"(14, False, 11)",150,1,0,"(16, False, 11)",190
-269,"(16, False, 11)",190,2,-1,terminal,291,Lose
-270,"(13, False, 7)",122,2,-2,terminal,291,Lose
-271,"(14, False, 6)",140,1,-2,terminal,291,Lose
-272,"(11, False, 3)",74,1,0,"(21, False, 3)",274
-272,"(21, False, 3)",274,2,1,terminal,291,Win
-273,"(21, True, 11)",289,2,2,terminal,291,Win
-274,"(20, False, 9)",266,2,1,terminal,291,Win
-275,"(20, False, 7)",262,2,1,terminal,291,Win
-276,"(13, True, 6)",119,1,0,"(18, True, 6)",219
-276,"(18, True, 6)",219,1,0,"(18, False, 6)",220
-276,"(18, False, 6)",220,2,-2,terminal,291,Lose
-277,"(15, False, 8)",164,2,-2,terminal,291,Lose
-278,"(9, False, 10)",59,1,0,"(14, False, 10)",148
-278,"(14, False, 10)",148,1,0,"(15, False, 10)",168
-278,"(15, False, 10)",168,2,-2,terminal,291,Lose
-279,"(18, False, 7)",222,2,1,terminal,291,Win
-280,"(13, False, 2)",112,1,0,"(18, False, 2)",212
-280,"(18, False, 2)",212,2,1,terminal,291,Win
-281,"(19, False, 7)",242,2,-2,terminal,291,Lose
-282,"(18, False, 10)",228,1,-2,terminal,291,Lose
-283,"(10, False, 10)",69,1,0,"(20, False, 10)",268
-283,"(20, False, 10)",268,2,1,terminal,291,Win
-284,"(16, False, 2)",172,2,1,terminal,291,Win
-285,"(19, False, 2)",232,2,0,terminal,291,Tie
-286,"(19, False, 10)",248,2,1,terminal,291,Win
-287,"(18, False, 9)",226,2,1,terminal,291,Win
-288,"(14, False, 7)",142,1,-2,terminal,291,Lose
-289,"(19, True, 2)",231,2,-2,terminal,291,Lose
-290,"(12, False, 3)",94,2,1,terminal,291,Win
-291,"(11, False, 2)",72,1,0,"(17, False, 2)",192
-291,"(17, False, 2)",192,2,1,terminal,291,Win
-292,"(16, False, 10)",188,1,-2,terminal,291,Lose
-293,"(16, False, 10)",188,1,-2,terminal,291,Lose
-294,"(16, False, 7)",182,2,-2,terminal,291,Lose
-295,"(14, False, 4)",136,2,1,terminal,291,Win
-296,"(14, True, 4)",135,1,0,"(13, False, 4)",116
-296,"(13, False, 4)",116,2,-2,terminal,291,Lose
-297,"(20, False, 2)",252,2,1,terminal,291,Win
-298,"(12, False, 3)",94,2,1,terminal,291,Win
-299,"(16, False, 10)",188,1,0,"(19, False, 10)",248
-299,"(19, False, 10)",248,2,-2,terminal,291,Lose
-300,"(10, False, 10)",69,1,0,"(21, True, 10)",287
-300,"(21, True, 10)",287,2,0,terminal,291,Tie
-301,"(15, False, 10)",168,2,-2,terminal,291,Lose
-302,"(5, False, 7)",16,1,0,"(12, False, 7)",102
-302,"(12, False, 7)",102,1,0,"(18, False, 7)",222
-302,"(18, False, 7)",222,2,1,terminal,291,Win
-303,"(13, False, 5)",118,2,1,terminal,291,Win
-304,"(20, False, 6)",260,2,-2,terminal,291,Lose
-305,"(12, False, 3)",94,2,1,terminal,291,Win
-306,"(14, False, 10)",148,1,-2,terminal,291,Lose
-307,"(14, True, 6)",139,1,0,"(14, False, 6)",140
-307,"(14, False, 6)",140,1,-2,terminal,291,Lose
-308,"(10, False, 11)",70,1,0,"(20, False, 11)",270
-308,"(20, False, 11)",270,2,2,terminal,291,Win
-309,"(12, False, 10)",108,1,-2,terminal,291,Lose
-310,"(13, False, 3)",114,2,-2,terminal,291,Lose
-311,"(17, True, 10)",207,1,0,"(17, False, 10)",208
-311,"(17, False, 10)",208,2,-2,terminal,291,Lose
-312,"(21, True, 10)",287,2,1,terminal,291,Win
-313,"(13, False, 2)",112,1,0,"(15, False, 2)",152
-313,"(15, False, 2)",152,2,-2,terminal,291,Lose
-314,"(20, False, 2)",252,2,0,terminal,291,Tie
-315,"(21, True, 6)",279,2,1,terminal,291,Win
-316,"(14, False, 3)",134,1,0,"(18, False, 3)",214
-316,"(18, False, 3)",214,2,-2,terminal,291,Lose
-317,"(15, False, 4)",156,2,-2,terminal,291,Lose
-318,"(20, False, 9)",266,2,1,terminal,291,Win
-319,"(17, False, 10)",208,2,-2,terminal,291,Lose
-320,"(15, False, 6)",160,2,1,terminal,291,Win
-321,"(17, True, 10)",207,1,0,"(17, False, 10)",208
-321,"(17, False, 10)",208,2,-2,terminal,291,Lose
-322,"(9, False, 6)",55,1,0,"(18, False, 6)",220
-322,"(18, False, 6)",220,2,1,terminal,291,Win
-323,"(21, True, 10)",287,2,1,terminal,291,Win
-324,"(13, True, 10)",127,1,0,"(16, True, 10)",187
-324,"(16, True, 10)",187,1,0,"(13, False, 10)",128
-324,"(13, False, 10)",128,2,-2,terminal,291,Lose
-325,"(20, False, 8)",264,2,1,terminal,291,Win
-326,"(11, False, 3)",74,1,0,"(12, False, 3)",94
-326,"(12, False, 3)",94,2,1,terminal,291,Win
-327,"(14, False, 4)",136,2,-2,terminal,291,Lose
-328,"(14, False, 10)",148,1,0,"(19, False, 10)",248
-328,"(19, False, 10)",248,2,-2,terminal,291,Lose
-329,"(19, False, 9)",246,2,1,terminal,291,Win
-330,"(15, False, 2)",152,2,-2,terminal,291,Lose
-331,"(18, False, 8)",224,2,0,terminal,291,Tie
-332,"(18, False, 10)",228,1,-2,terminal,291,Lose
-333,"(13, False, 10)",128,2,-2,terminal,291,Lose
-334,"(18, False, 9)",226,2,0,terminal,291,Tie
-335,"(12, False, 9)",106,2,-2,terminal,291,Lose
-336,"(14, False, 2)",132,2,1,terminal,291,Win
-337,"(15, False, 10)",168,2,-2,terminal,291,Lose
-338,"(12, False, 6)",100,2,-2,terminal,291,Lose
-339,"(17, False, 8)",204,2,-2,terminal,291,Lose
-340,"(12, False, 7)",102,1,0,"(20, False, 7)",262
-340,"(20, False, 7)",262,2,1,terminal,291,Win
-341,"(6, False, 9)",28,1,0,"(12, False, 9)",106
-341,"(12, False, 9)",106,2,-2,terminal,291,Lose
-342,"(12, False, 10)",108,1,-2,terminal,291,Lose
-343,"(16, True, 10)",187,1,0,"(15, False, 10)",168
-343,"(15, False, 10)",168,2,-2,terminal,291,Lose
-344,"(20, False, 4)",256,2,0,terminal,291,Tie
-345,"(18, True, 2)",211,1,0,"(14, False, 2)",132
-345,"(14, False, 2)",132,2,-2,terminal,291,Lose
-346,"(11, False, 8)",84,1,0,"(17, False, 8)",204
-346,"(17, False, 8)",204,2,-2,terminal,291,Lose
-347,"(5, False, 8)",17,1,0,"(9, False, 8)",57
-347,"(9, False, 8)",57,1,0,"(20, True, 8)",263
-347,"(20, True, 8)",263,2,1,terminal,291,Win
-348,"(16, False, 4)",176,2,-2,terminal,291,Lose
-349,"(12, False, 10)",108,1,0,"(21, False, 10)",288
-349,"(21, False, 10)",288,2,0,terminal,291,Tie
-350,"(19, True, 5)",237,2,1,terminal,291,Win
-351,"(17, True, 10)",207,1,0,"(19, True, 10)",247
-351,"(19, True, 10)",247,1,0,"(14, False, 10)",148
-351,"(14, False, 10)",148,1,0,"(18, False, 10)",228
-351,"(18, False, 10)",228,1,-2,terminal,291,Lose
-352,"(20, False, 4)",256,2,0,terminal,291,Tie
-353,"(18, True, 7)",221,2,0,terminal,291,Tie
-354,"(11, False, 10)",88,1,0,"(15, False, 10)",168
-354,"(15, False, 10)",168,2,1,terminal,291,Win
-355,"(13, False, 9)",126,1,0,"(16, False, 9)",186
-355,"(16, False, 9)",186,1,-2,terminal,291,Lose
-356,"(12, False, 10)",108,1,0,"(17, False, 10)",208
-356,"(17, False, 10)",208,2,-2,terminal,291,Lose
-357,"(10, False, 10)",69,1,0,"(17, False, 10)",208
-357,"(17, False, 10)",208,2,0,terminal,291,Tie
-358,"(12, False, 9)",106,2,-2,terminal,291,Lose
-359,"(16, False, 5)",178,2,-2,terminal,291,Lose
-360,"(16, False, 10)",188,1,0,"(21, False, 10)",288
-360,"(21, False, 10)",288,2,1,terminal,291,Win
-361,"(16, False, 2)",172,2,-2,terminal,291,Lose
-362,"(17, False, 9)",206,2,1,terminal,291,Win
-363,"(9, False, 5)",54,1,0,"(18, False, 5)",218
-363,"(18, False, 5)",218,2,-2,terminal,291,Lose
-364,"(5, False, 10)",19,2,1,terminal,291,Win
-365,"(19, False, 6)",240,2,1,terminal,291,Win
-366,"(16, False, 2)",172,2,-2,terminal,291,Lose
-367,"(19, False, 9)",246,2,1,terminal,291,Win
-368,"(19, False, 7)",242,2,1,terminal,291,Win
-369,"(12, False, 3)",94,2,-2,terminal,291,Lose
-370,"(6, False, 4)",23,1,0,"(16, False, 4)",176
-370,"(16, False, 4)",176,2,-2,terminal,291,Lose
-371,"(13, False, 8)",124,1,0,"(16, False, 8)",184
-371,"(16, False, 8)",184,2,-2,terminal,291,Lose
-372,"(18, False, 9)",226,2,1,terminal,291,Win
-373,"(20, True, 10)",267,2,1,terminal,291,Win
-374,"(14, False, 7)",142,1,-2,terminal,291,Lose
-375,"(18, False, 10)",228,1,0,"(19, False, 10)",248
-375,"(19, False, 10)",248,2,-2,terminal,291,Lose
-376,"(9, False, 5)",54,1,0,"(13, False, 5)",118
-376,"(13, False, 5)",118,2,-2,terminal,291,Lose
-377,"(17, False, 10)",208,2,-2,terminal,291,Lose
-378,"(20, False, 7)",262,2,1,terminal,291,Win
-379,"(20, True, 7)",261,2,0,terminal,291,Tie
-380,"(13, False, 5)",118,2,-2,terminal,291,Lose
-381,"(18, False, 10)",228,1,-2,terminal,291,Lose
-382,"(6, False, 5)",24,2,-2,terminal,291,Lose
-383,"(12, False, 4)",96,2,-2,terminal,291,Lose
-384,"(19, False, 2)",232,2,1,terminal,291,Win
-385,"(21, True, 4)",275,2,1,terminal,291,Win
-386,"(20, True, 8)",263,2,1,terminal,291,Win
-387,"(8, False, 4)",43,1,0,"(16, False, 4)",176
-387,"(16, False, 4)",176,2,1,terminal,291,Win
-388,"(11, False, 5)",78,1,0,"(12, False, 5)",98
-388,"(12, False, 5)",98,1,0,"(19, False, 5)",238
-388,"(19, False, 5)",238,2,1,terminal,291,Win
-389,"(21, True, 11)",289,2,2,terminal,291,Win
-390,"(20, False, 9)",266,2,1,terminal,291,Win
-391,"(16, False, 8)",184,2,-2,terminal,291,Lose
-392,"(17, False, 9)",206,2,0,terminal,291,Tie
-393,"(10, False, 11)",70,1,0,"(14, False, 11)",150
-393,"(14, False, 11)",150,1,-1,terminal,291,Lose
-394,"(16, False, 11)",190,2,-1,terminal,291,Lose
-395,"(7, False, 2)",31,1,0,"(17, False, 2)",192
-395,"(17, False, 2)",192,2,-2,terminal,291,Lose
-396,"(12, True, 10)",107,1,0,"(16, True, 10)",187
-396,"(16, True, 10)",187,1,0,"(12, False, 10)",108
-396,"(12, False, 10)",108,1,0,"(19, False, 10)",248
-396,"(19, False, 10)",248,2,-2,terminal,291,Lose
-397,"(18, True, 10)",227,1,0,"(21, True, 10)",287
-397,"(21, True, 10)",287,2,1,terminal,291,Win
-398,"(18, False, 4)",216,2,0,terminal,291,Tie
-399,"(13, False, 4)",116,2,1,terminal,291,Win
-400,"(14, False, 4)",136,2,1,terminal,291,Win
-401,"(13, False, 10)",128,2,-2,terminal,291,Lose
-402,"(19, False, 8)",244,2,1,terminal,291,Win
-403,"(13, False, 2)",112,1,0,"(21, False, 2)",272
-403,"(21, False, 2)",272,2,1,terminal,291,Win
-404,"(13, False, 10)",128,2,-2,terminal,291,Lose
-405,"(19, False, 8)",244,2,0,terminal,291,Tie
-406,"(12, False, 10)",108,1,0,"(21, False, 10)",288
-406,"(21, False, 10)",288,2,0,terminal,291,Tie
-407,"(13, False, 8)",124,1,-2,terminal,291,Lose
-408,"(16, False, 6)",180,2,1,terminal,291,Win
-409,"(20, False, 8)",264,2,1,terminal,291,Win
-410,"(11, False, 10)",88,1,0,"(19, False, 10)",248
-410,"(19, False, 10)",248,2,-2,terminal,291,Lose
-411,"(14, False, 9)",146,1,-2,terminal,291,Lose
-412,"(14, False, 7)",142,1,-2,terminal,291,Lose
-413,"(17, False, 11)",210,2,-1,terminal,291,Lose
-414,"(12, True, 3)",93,1,0,"(18, True, 3)",213
-414,"(18, True, 3)",213,2,1,terminal,291,Win
-415,"(18, False, 2)",212,2,1,terminal,291,Win
-416,"(17, True, 10)",207,1,0,"(15, False, 10)",168
-416,"(15, False, 10)",168,2,-2,terminal,291,Lose
-417,"(16, False, 7)",182,2,-2,terminal,291,Lose
-418,"(20, False, 10)",268,2,0,terminal,291,Tie
-419,"(19, False, 10)",248,2,1,terminal,291,Win
-420,"(13, False, 10)",128,2,-2,terminal,291,Lose
-421,"(15, False, 7)",162,2,-2,terminal,291,Lose
-422,"(15, False, 10)",168,2,1,terminal,291,Win
-423,"(12, False, 10)",108,1,-2,terminal,291,Lose
-424,"(21, True, 10)",287,2,1,terminal,291,Win
-425,"(17, False, 7)",202,2,-2,terminal,291,Lose
-426,"(20, False, 10)",268,2,1,terminal,291,Win
-427,"(10, False, 11)",70,1,0,"(20, False, 11)",270
-427,"(20, False, 11)",270,2,0.5,terminal,291,Tie
-428,"(17, True, 10)",207,1,0,"(20, True, 10)",267
-428,"(20, True, 10)",267,2,1,terminal,291,Win
-429,"(18, False, 8)",224,2,-2,terminal,291,Lose
-430,"(4, False, 7)",6,1,0,"(15, True, 7)",161
-430,"(15, True, 7)",161,1,0,"(15, False, 7)",162
-430,"(15, False, 7)",162,2,1,terminal,291,Win
-431,"(15, False, 4)",156,2,-2,terminal,291,Lose
-432,"(7, False, 7)",36,1,0,"(12, False, 7)",102
-432,"(12, False, 7)",102,1,0,"(15, False, 7)",162
-432,"(15, False, 7)",162,2,-2,terminal,291,Lose
-433,"(18, False, 10)",228,1,-2,terminal,291,Lose
-434,"(17, False, 10)",208,2,-2,terminal,291,Lose
-435,"(17, False, 9)",206,2,-2,terminal,291,Lose
-436,"(12, False, 4)",96,2,1,terminal,291,Win
-437,"(20, True, 10)",267,2,1,terminal,291,Win
-438,"(20, False, 11)",270,2,-1,terminal,291,Lose
-439,"(19, False, 2)",232,2,1,terminal,291,Win
-440,"(13, False, 10)",128,2,-2,terminal,291,Lose
-441,"(9, False, 10)",59,1,0,"(19, False, 10)",248
-441,"(19, False, 10)",248,2,-2,terminal,291,Lose
-442,"(17, False, 8)",204,2,0,terminal,291,Tie
-443,"(20, True, 5)",257,2,1,terminal,291,Win
-444,"(20, False, 10)",268,2,1,terminal,291,Win
-445,"(7, False, 10)",39,1,0,"(13, False, 10)",128
-445,"(13, False, 10)",128,2,1,terminal,291,Win
-446,"(13, False, 10)",128,2,-2,terminal,291,Lose
-447,"(5, False, 11)",20,1,0,"(15, False, 11)",170
-447,"(15, False, 11)",170,2,-1,terminal,291,Lose
-448,"(4, False, 9)",8,1,0,"(11, False, 9)",86
-448,"(11, False, 9)",86,1,0,"(21, False, 9)",286
-448,"(21, False, 9)",286,2,1,terminal,291,Win
-449,"(4, False, 11)",10,1,0,"(14, False, 11)",150
-449,"(14, False, 11)",150,1,0,"(21, False, 11)",290
-449,"(21, False, 11)",290,2,2,terminal,291,Win
-450,"(13, False, 6)",120,2,1,terminal,291,Win
-451,"(12, False, 9)",106,2,1,terminal,291,Win
-452,"(15, False, 8)",164,2,-2,terminal,291,Lose
-453,"(19, False, 11)",250,2,-1,terminal,291,Lose
-454,"(16, False, 10)",188,1,0,"(17, False, 10)",208
-454,"(17, False, 10)",208,2,-2,terminal,291,Lose
-455,"(12, False, 10)",108,1,0,"(14, False, 10)",148
-455,"(14, False, 10)",148,1,-2,terminal,291,Lose
-456,"(17, False, 2)",192,2,-2,terminal,291,Lose
-457,"(19, True, 6)",239,2,1,terminal,291,Win
-458,"(12, False, 10)",108,1,0,"(18, False, 10)",228
-458,"(18, False, 10)",228,1,-2,terminal,291,Lose
-459,"(12, False, 10)",108,1,0,"(15, False, 10)",168
-459,"(15, False, 10)",168,2,-2,terminal,291,Lose
-460,"(12, False, 4)",96,2,-2,terminal,291,Lose
-461,"(10, False, 6)",65,1,0,"(20, False, 6)",260
-461,"(20, False, 6)",260,2,1,terminal,291,Win
-462,"(16, True, 6)",179,1,0,"(16, False, 6)",180
-462,"(16, False, 6)",180,2,1,terminal,291,Win
-463,"(15, False, 4)",156,2,-2,terminal,291,Lose
-464,"(15, False, 11)",170,2,-1,terminal,291,Lose
-465,"(13, False, 10)",128,2,-2,terminal,291,Lose
-466,"(16, False, 3)",174,1,-2,terminal,291,Lose
-467,"(10, False, 10)",69,1,0,"(20, False, 10)",268
-467,"(20, False, 10)",268,2,1,terminal,291,Win
+249,"(9, False, 5)",54,1,0,"(18, False, 5)",218
+249,"(18, False, 5)",218,2,-2,terminal,291,Lose
+250,"(18, False, 11)",230,2,0.5,terminal,291,Tie
+251,"(14, True, 4)",135,1,0,"(12, False, 4)",96
+251,"(12, False, 4)",96,2,1,terminal,291,Win
+252,"(18, False, 8)",224,2,1,terminal,291,Win
+253,"(19, False, 4)",236,2,1,terminal,291,Win
+254,"(20, False, 4)",256,2,-2,terminal,291,Lose
+255,"(18, False, 10)",228,1,-2,terminal,291,Lose
+256,"(19, False, 10)",248,2,1,terminal,291,Win
+257,"(19, True, 4)",235,2,0,terminal,291,Tie
+258,"(18, False, 10)",228,1,-2,terminal,291,Lose
+259,"(12, False, 5)",98,1,-2,terminal,291,Lose
+260,"(13, False, 5)",118,2,1,terminal,291,Win
+261,"(19, True, 10)",247,1,0,"(19, False, 10)",248
+261,"(19, False, 10)",248,2,1,terminal,291,Win
+262,"(12, False, 10)",108,1,0,"(19, False, 10)",248
+262,"(19, False, 10)",248,2,1,terminal,291,Win
+263,"(18, False, 8)",224,2,1,terminal,291,Win
+264,"(14, False, 3)",134,1,0,"(19, False, 3)",234
+264,"(19, False, 3)",234,2,1,terminal,291,Win
+265,"(13, True, 9)",125,1,0,"(12, False, 9)",106
+265,"(12, False, 9)",106,2,1,terminal,291,Win
+266,"(18, True, 10)",227,1,0,"(17, False, 10)",208
+266,"(17, False, 10)",208,2,0,terminal,291,Tie
+267,"(14, False, 7)",142,1,0,"(21, False, 7)",282
+267,"(21, False, 7)",282,2,1,terminal,291,Win
+268,"(19, False, 5)",238,2,1,terminal,291,Win
+269,"(20, False, 7)",262,2,1,terminal,291,Win
+270,"(14, True, 11)",149,2,-1,terminal,291,Lose
+271,"(15, False, 10)",168,2,-2,terminal,291,Lose
+272,"(14, False, 10)",148,1,-2,terminal,291,Lose
+273,"(18, True, 11)",229,1,0,"(15, False, 11)",170
+273,"(15, False, 11)",170,2,-1,terminal,291,Lose
+274,"(12, False, 10)",108,1,0,"(18, False, 10)",228
+274,"(18, False, 10)",228,1,0,"(20, False, 10)",268
+274,"(20, False, 10)",268,2,0,terminal,291,Tie
+275,"(17, False, 3)",194,2,-2,terminal,291,Lose
+276,"(12, False, 4)",96,2,1,terminal,291,Win
+277,"(21, True, 10)",287,2,1,terminal,291,Win
+278,"(20, True, 10)",267,2,1,terminal,291,Win
+279,"(17, False, 8)",204,2,-2,terminal,291,Lose
+280,"(20, False, 3)",254,2,1,terminal,291,Win
+281,"(14, False, 5)",138,1,-2,terminal,291,Lose
+282,"(15, True, 10)",167,1,0,"(17, True, 10)",207
+282,"(17, True, 10)",207,1,0,"(17, False, 10)",208
+282,"(17, False, 10)",208,2,0,terminal,291,Tie
+283,"(17, False, 10)",208,2,-2,terminal,291,Lose
+284,"(11, False, 10)",88,1,0,"(20, False, 10)",268
+284,"(20, False, 10)",268,2,1,terminal,291,Win
+285,"(15, False, 6)",160,2,-2,terminal,291,Lose
+286,"(6, False, 6)",25,1,0,"(8, False, 6)",45
+286,"(8, False, 6)",45,1,0,"(17, False, 6)",200
+286,"(17, False, 6)",200,2,1,terminal,291,Win
+287,"(16, False, 10)",188,1,0,"(18, False, 10)",228
+287,"(18, False, 10)",228,1,-2,terminal,291,Lose
+288,"(14, False, 2)",132,2,-2,terminal,291,Lose
+289,"(17, False, 4)",196,2,1,terminal,291,Win
+290,"(19, False, 6)",240,2,1,terminal,291,Win
+291,"(5, False, 5)",14,2,-2,terminal,291,Lose
+292,"(13, False, 10)",128,2,-2,terminal,291,Lose
+293,"(15, False, 3)",154,1,-2,terminal,291,Lose
+294,"(15, False, 3)",154,1,-2,terminal,291,Lose
+295,"(13, False, 10)",128,2,-2,terminal,291,Lose
+296,"(9, False, 6)",55,1,0,"(12, False, 6)",100
+296,"(12, False, 6)",100,2,-2,terminal,291,Lose
+297,"(16, False, 11)",190,2,-1,terminal,291,Lose
+298,"(17, False, 4)",196,2,1,terminal,291,Win
+299,"(16, False, 10)",188,1,-2,terminal,291,Lose
+300,"(16, False, 2)",172,2,-2,terminal,291,Lose
+301,"(11, False, 10)",88,1,0,"(12, False, 10)",108
+301,"(12, False, 10)",108,1,0,"(19, False, 10)",248
+301,"(19, False, 10)",248,2,0,terminal,291,Tie
+302,"(18, True, 10)",227,1,0,"(18, False, 10)",228
+302,"(18, False, 10)",228,1,-2,terminal,291,Lose
+303,"(20, False, 11)",270,2,-1,terminal,291,Lose
+304,"(7, False, 3)",32,1,0,"(13, False, 3)",114
+304,"(13, False, 3)",114,2,1,terminal,291,Win
+305,"(11, False, 4)",76,1,0,"(21, False, 4)",276
+305,"(21, False, 4)",276,2,1,terminal,291,Win
+306,"(13, False, 6)",120,2,-2,terminal,291,Lose
+307,"(16, True, 5)",177,1,0,"(13, False, 5)",118
+307,"(13, False, 5)",118,2,1,terminal,291,Win
+308,"(18, False, 2)",212,2,1,terminal,291,Win
+309,"(20, True, 7)",261,2,0,terminal,291,Tie
+310,"(10, False, 6)",65,1,0,"(13, False, 6)",120
+310,"(13, False, 6)",120,2,1,terminal,291,Win
+311,"(15, False, 11)",170,2,-1,terminal,291,Lose
+312,"(9, False, 5)",54,1,0,"(11, False, 5)",78
+312,"(11, False, 5)",78,1,0,"(18, False, 5)",218
+312,"(18, False, 5)",218,2,1,terminal,291,Win
+313,"(13, False, 2)",112,1,0,"(20, False, 2)",252
+313,"(20, False, 2)",252,2,1,terminal,291,Win
+314,"(20, False, 4)",256,2,1,terminal,291,Win
+315,"(20, False, 9)",266,2,1,terminal,291,Win
+316,"(11, False, 8)",84,1,0,"(21, False, 8)",284
+316,"(21, False, 8)",284,2,1,terminal,291,Win
+317,"(15, True, 10)",167,1,0,"(18, True, 10)",227
+317,"(18, True, 10)",227,1,0,"(18, False, 10)",228
+317,"(18, False, 10)",228,1,-2,terminal,291,Lose
+318,"(12, False, 11)",110,1,0,"(16, False, 11)",190
+318,"(16, False, 11)",190,2,-1,terminal,291,Lose
+319,"(13, True, 5)",117,2,-2,terminal,291,Lose
+320,"(13, False, 10)",128,2,-2,terminal,291,Lose
+321,"(7, False, 6)",35,2,-2,terminal,291,Lose
+322,"(10, False, 10)",69,1,0,"(19, False, 10)",248
+322,"(19, False, 10)",248,2,1,terminal,291,Win
+323,"(11, False, 11)",90,1,0,"(14, False, 11)",150
+323,"(14, False, 11)",150,1,0,"(19, False, 11)",250
+323,"(19, False, 11)",250,2,-1,terminal,291,Lose
+324,"(16, False, 10)",188,1,-2,terminal,291,Lose
+325,"(16, False, 3)",174,1,0,"(19, False, 3)",234
+325,"(19, False, 3)",234,2,1,terminal,291,Win
+326,"(15, True, 3)",153,2,1,terminal,291,Win
+327,"(15, False, 10)",168,2,1,terminal,291,Win
+328,"(14, False, 8)",144,1,0,"(18, False, 8)",224
+328,"(18, False, 8)",224,2,0,terminal,291,Tie
+329,"(12, False, 10)",108,1,0,"(17, False, 10)",208
+329,"(17, False, 10)",208,2,-2,terminal,291,Lose
+330,"(17, False, 11)",210,2,-1,terminal,291,Lose
+331,"(17, True, 9)",205,1,0,"(12, False, 9)",106
+331,"(12, False, 9)",106,2,-2,terminal,291,Lose
+332,"(11, False, 8)",84,1,0,"(20, False, 8)",264
+332,"(20, False, 8)",264,2,1,terminal,291,Win
+333,"(15, False, 3)",154,1,-2,terminal,291,Lose
+334,"(19, False, 10)",248,2,1,terminal,291,Win
+335,"(12, False, 6)",100,2,-2,terminal,291,Lose
+336,"(13, False, 10)",128,2,-2,terminal,291,Lose
+337,"(15, False, 3)",154,1,0,"(16, False, 3)",174
+337,"(16, False, 3)",174,1,-2,terminal,291,Lose
+338,"(9, False, 10)",59,1,0,"(11, False, 10)",88
+338,"(11, False, 10)",88,1,0,"(19, False, 10)",248
+338,"(19, False, 10)",248,2,-2,terminal,291,Lose
+339,"(19, False, 10)",248,2,0,terminal,291,Tie
+340,"(8, False, 7)",46,1,0,"(17, False, 7)",202
+340,"(17, False, 7)",202,2,-2,terminal,291,Lose
+341,"(13, False, 5)",118,2,1,terminal,291,Win
+342,"(17, False, 8)",204,2,1,terminal,291,Win
+343,"(17, False, 2)",192,2,-2,terminal,291,Lose
+344,"(14, False, 6)",140,1,-2,terminal,291,Lose
+345,"(19, False, 9)",246,2,1,terminal,291,Win
+346,"(15, False, 9)",166,1,-2,terminal,291,Lose
+347,"(16, False, 10)",188,1,-2,terminal,291,Lose
+348,"(12, False, 10)",108,1,0,"(13, False, 10)",128
+348,"(13, False, 10)",128,2,1,terminal,291,Win
+349,"(9, False, 2)",51,1,0,"(13, False, 2)",112
+349,"(13, False, 2)",112,1,0,"(21, False, 2)",272
+349,"(21, False, 2)",272,2,1,terminal,291,Win
+350,"(8, False, 10)",49,1,0,"(18, False, 10)",228
+350,"(18, False, 10)",228,1,-2,terminal,291,Lose
+351,"(6, False, 4)",23,1,0,"(16, False, 4)",176
+351,"(16, False, 4)",176,2,-2,terminal,291,Lose
+352,"(20, True, 4)",255,2,1,terminal,291,Win
+353,"(6, False, 4)",23,1,0,"(13, False, 4)",116
+353,"(13, False, 4)",116,2,-2,terminal,291,Lose
+354,"(16, False, 9)",186,1,-2,terminal,291,Lose
+355,"(20, False, 2)",252,2,1,terminal,291,Win
+356,"(12, False, 7)",102,1,-2,terminal,291,Lose
+357,"(8, False, 4)",43,1,0,"(13, False, 4)",116
+357,"(13, False, 4)",116,2,1,terminal,291,Win
+358,"(20, False, 8)",264,2,1,terminal,291,Win
+359,"(20, False, 7)",262,2,1,terminal,291,Win
+360,"(11, False, 8)",84,1,0,"(15, False, 8)",164
+360,"(15, False, 8)",164,2,-2,terminal,291,Lose
+361,"(19, False, 8)",244,2,1,terminal,291,Win
+362,"(9, False, 10)",59,1,0,"(16, False, 10)",188
+362,"(16, False, 10)",188,1,0,"(18, False, 10)",228
+362,"(18, False, 10)",228,1,-2,terminal,291,Lose
+363,"(16, True, 5)",177,1,0,"(16, False, 5)",178
+363,"(16, False, 5)",178,2,1,terminal,291,Win
+364,"(20, False, 10)",268,2,1,terminal,291,Win
+365,"(21, True, 10)",287,2,1,terminal,291,Win
+366,"(14, False, 10)",148,1,0,"(19, False, 10)",248
+366,"(19, False, 10)",248,2,-2,terminal,291,Lose
+367,"(12, False, 4)",96,2,-2,terminal,291,Lose
+368,"(14, False, 10)",148,1,0,"(19, False, 10)",248
+368,"(19, False, 10)",248,2,1,terminal,291,Win
+369,"(16, False, 10)",188,1,0,"(21, False, 10)",288
+369,"(21, False, 10)",288,2,1,terminal,291,Win
+370,"(13, False, 4)",116,2,-2,terminal,291,Lose
+371,"(18, False, 6)",220,2,1,terminal,291,Win
+372,"(14, False, 8)",144,1,-2,terminal,291,Lose
+373,"(13, False, 10)",128,2,-2,terminal,291,Lose
+374,"(12, False, 10)",108,1,-2,terminal,291,Lose
+375,"(16, False, 8)",184,2,1,terminal,291,Win
+376,"(17, False, 2)",192,2,-2,terminal,291,Lose
+377,"(14, False, 4)",136,2,1,terminal,291,Win
+378,"(21, True, 4)",275,2,1,terminal,291,Win
+379,"(10, False, 7)",66,1,0,"(15, False, 7)",162
+379,"(15, False, 7)",162,2,1,terminal,291,Win
+380,"(5, False, 10)",19,2,-2,terminal,291,Lose
+381,"(20, False, 11)",270,2,2,terminal,291,Win
+382,"(18, False, 10)",228,1,-2,terminal,291,Lose
+383,"(14, True, 10)",147,1,0,"(12, False, 10)",108
+383,"(12, False, 10)",108,1,-2,terminal,291,Lose
+384,"(15, True, 10)",167,1,0,"(19, True, 10)",247
+384,"(19, True, 10)",247,1,0,"(20, True, 10)",267
+384,"(20, True, 10)",267,2,1,terminal,291,Win
+385,"(21, True, 10)",287,2,1,terminal,291,Win
+386,"(15, False, 7)",162,2,-2,terminal,291,Lose
+387,"(9, False, 6)",55,1,0,"(15, False, 6)",160
+387,"(15, False, 6)",160,2,-2,terminal,291,Lose
+388,"(6, False, 11)",30,1,0,"(10, False, 11)",70
+388,"(10, False, 11)",70,1,0,"(15, False, 11)",170
+388,"(15, False, 11)",170,2,-1,terminal,291,Lose
+389,"(6, False, 10)",29,1,0,"(16, False, 10)",188
+389,"(16, False, 10)",188,1,-2,terminal,291,Lose
+390,"(19, True, 6)",239,2,1,terminal,291,Win
+391,"(11, False, 9)",86,1,0,"(20, False, 9)",266
+391,"(20, False, 9)",266,2,1,terminal,291,Win
+392,"(11, False, 8)",84,1,0,"(19, False, 8)",244
+392,"(19, False, 8)",244,2,1,terminal,291,Win
+393,"(12, False, 8)",104,1,-2,terminal,291,Lose
+394,"(21, True, 10)",287,2,0,terminal,291,Tie
+395,"(13, False, 3)",114,2,-2,terminal,291,Lose
+396,"(12, False, 2)",92,1,-2,terminal,291,Lose
+397,"(6, False, 2)",21,2,-2,terminal,291,Lose
+398,"(16, False, 7)",182,2,1,terminal,291,Win
+399,"(7, False, 11)",40,1,0,"(16, False, 11)",190
+399,"(16, False, 11)",190,2,-1,terminal,291,Lose
+400,"(16, False, 5)",178,2,-2,terminal,291,Lose
+401,"(12, False, 9)",106,2,-2,terminal,291,Lose
+402,"(20, True, 2)",251,2,1,terminal,291,Win
+403,"(17, False, 4)",196,2,-2,terminal,291,Lose
+404,"(15, False, 8)",164,2,-2,terminal,291,Lose
+405,"(15, True, 7)",161,1,0,"(20, True, 7)",261
+405,"(20, True, 7)",261,2,1,terminal,291,Win
+406,"(13, True, 4)",115,1,0,"(21, True, 4)",275
+406,"(21, True, 4)",275,2,1,terminal,291,Win
+407,"(14, False, 6)",140,1,0,"(20, False, 6)",260
+407,"(20, False, 6)",260,2,1,terminal,291,Win
+408,"(13, False, 7)",122,2,1,terminal,291,Win
+409,"(9, False, 10)",59,1,0,"(20, True, 10)",267
+409,"(20, True, 10)",267,2,1,terminal,291,Win
+410,"(18, False, 5)",218,2,-2,terminal,291,Lose
+411,"(20, False, 10)",268,2,1,terminal,291,Win
+412,"(11, False, 10)",88,1,0,"(12, False, 10)",108
+412,"(12, False, 10)",108,1,0,"(18, False, 10)",228
+412,"(18, False, 10)",228,1,0,"(19, False, 10)",248
+412,"(19, False, 10)",248,2,1,terminal,291,Win
+413,"(18, True, 10)",227,1,0,"(16, False, 10)",188
+413,"(16, False, 10)",188,1,0,"(20, False, 10)",268
+413,"(20, False, 10)",268,2,1,terminal,291,Win
+414,"(15, False, 4)",156,2,-2,terminal,291,Lose
+415,"(5, False, 5)",14,2,-2,terminal,291,Lose
+416,"(17, False, 9)",206,2,1,terminal,291,Win
+417,"(13, False, 11)",130,1,-1,terminal,291,Lose
+418,"(7, False, 10)",39,1,0,"(17, False, 10)",208
+418,"(17, False, 10)",208,2,-2,terminal,291,Lose
+419,"(20, False, 10)",268,2,0,terminal,291,Tie
+420,"(5, False, 9)",18,1,0,"(10, False, 9)",68
+420,"(10, False, 9)",68,1,0,"(19, False, 9)",246
+420,"(19, False, 9)",246,2,1,terminal,291,Win
+421,"(20, False, 10)",268,2,1,terminal,291,Win
+422,"(8, False, 5)",44,2,-2,terminal,291,Lose
+423,"(18, False, 10)",228,1,-2,terminal,291,Lose
+424,"(20, False, 4)",256,2,1,terminal,291,Win
+425,"(18, False, 6)",220,2,1,terminal,291,Win
+426,"(12, False, 8)",104,1,0,"(16, False, 8)",184
+426,"(16, False, 8)",184,2,-2,terminal,291,Lose
+427,"(13, False, 3)",114,2,-2,terminal,291,Lose
+428,"(13, False, 10)",128,2,-2,terminal,291,Lose
+429,"(13, False, 11)",130,1,0,"(19, False, 11)",250
+429,"(19, False, 11)",250,2,2,terminal,291,Win
+430,"(9, False, 9)",58,1,0,"(17, False, 9)",206
+430,"(17, False, 9)",206,2,1,terminal,291,Win
+431,"(17, False, 10)",208,2,-2,terminal,291,Lose
+432,"(14, False, 6)",140,1,0,"(20, False, 6)",260
+432,"(20, False, 6)",260,2,1,terminal,291,Win
+433,"(19, False, 9)",246,2,1,terminal,291,Win
+434,"(15, False, 3)",154,1,0,"(16, False, 3)",174
+434,"(16, False, 3)",174,1,-2,terminal,291,Lose
+435,"(13, False, 10)",128,2,-2,terminal,291,Lose
+436,"(15, False, 3)",154,1,-2,terminal,291,Lose
+437,"(16, False, 10)",188,1,-2,terminal,291,Lose
+438,"(15, False, 9)",166,1,0,"(18, False, 9)",226
+438,"(18, False, 9)",226,2,-2,terminal,291,Lose
+439,"(19, False, 9)",246,2,0,terminal,291,Tie
+440,"(20, False, 10)",268,2,1,terminal,291,Win
+441,"(15, True, 10)",167,1,0,"(20, True, 10)",267
+441,"(20, True, 10)",267,2,0,terminal,291,Tie
+442,"(7, False, 7)",36,1,0,"(16, False, 7)",182
+442,"(16, False, 7)",182,2,-2,terminal,291,Lose
+443,"(20, False, 10)",268,2,1,terminal,291,Win
+444,"(17, False, 8)",204,2,1,terminal,291,Win
+445,"(18, False, 7)",222,2,1,terminal,291,Win
+446,"(10, False, 10)",69,1,0,"(21, True, 10)",287
+446,"(21, True, 10)",287,2,1,terminal,291,Win
+447,"(12, False, 6)",100,2,-2,terminal,291,Lose
+448,"(16, False, 5)",178,2,-2,terminal,291,Lose
+449,"(9, False, 8)",57,1,0,"(19, False, 8)",244
+449,"(19, False, 8)",244,2,1,terminal,291,Win
+450,"(18, False, 7)",222,2,1,terminal,291,Win
+451,"(6, False, 10)",29,1,0,"(13, False, 10)",128
+451,"(13, False, 10)",128,2,-2,terminal,291,Lose
+452,"(21, True, 5)",277,2,1,terminal,291,Win
+453,"(12, False, 2)",92,1,0,"(19, False, 2)",232
+453,"(19, False, 2)",232,2,1,terminal,291,Win
+454,"(12, False, 2)",92,1,-2,terminal,291,Lose
+455,"(20, False, 11)",270,2,-1,terminal,291,Lose
+456,"(6, False, 8)",27,1,0,"(16, False, 8)",184
+456,"(16, False, 8)",184,2,-2,terminal,291,Lose
+457,"(12, False, 10)",108,1,-2,terminal,291,Lose
+458,"(21, True, 8)",283,2,1,terminal,291,Win
+459,"(10, False, 2)",61,1,0,"(20, False, 2)",252
+459,"(20, False, 2)",252,2,-2,terminal,291,Lose
+460,"(16, True, 4)",175,1,0,"(13, False, 4)",116
+460,"(13, False, 4)",116,2,1,terminal,291,Win
+461,"(14, False, 10)",148,1,-2,terminal,291,Lose
+462,"(14, False, 7)",142,1,0,"(15, False, 7)",162
+462,"(15, False, 7)",162,2,-2,terminal,291,Lose
+463,"(13, True, 8)",123,1,0,"(13, False, 8)",124
+463,"(13, False, 8)",124,1,-2,terminal,291,Lose
+464,"(11, False, 7)",82,1,0,"(17, False, 7)",202
+464,"(17, False, 7)",202,2,1,terminal,291,Win
+465,"(12, False, 3)",94,2,1,terminal,291,Win
+466,"(11, False, 9)",86,1,0,"(21, False, 9)",286
+466,"(21, False, 9)",286,2,1,terminal,291,Win
+467,"(18, False, 4)",216,2,-2,terminal,291,Lose
 468,"(20, False, 9)",266,2,1,terminal,291,Win
-469,"(16, False, 11)",190,2,-1,terminal,291,Lose
-470,"(21, True, 10)",287,2,0,terminal,291,Tie
-471,"(12, False, 10)",108,1,0,"(20, False, 10)",268
-471,"(20, False, 10)",268,2,1,terminal,291,Win
-472,"(15, False, 3)",154,1,-2,terminal,291,Lose
-473,"(18, False, 10)",228,1,-2,terminal,291,Lose
-474,"(19, False, 11)",250,2,-1,terminal,291,Lose
-475,"(16, False, 3)",174,1,-2,terminal,291,Lose
-476,"(13, False, 11)",130,1,0,"(18, False, 11)",230
-476,"(18, False, 11)",230,2,2,terminal,291,Win
-477,"(12, False, 8)",104,1,0,"(19, False, 8)",244
-477,"(19, False, 8)",244,2,0,terminal,291,Tie
-478,"(11, False, 10)",88,1,0,"(18, False, 10)",228
-478,"(18, False, 10)",228,1,-2,terminal,291,Lose
-479,"(15, False, 7)",162,2,1,terminal,291,Win
-480,"(8, False, 7)",46,1,0,"(18, False, 7)",222
-480,"(18, False, 7)",222,2,1,terminal,291,Win
-481,"(8, False, 4)",43,1,0,"(17, False, 4)",196
-481,"(17, False, 4)",196,2,-2,terminal,291,Lose
-482,"(20, False, 3)",254,2,1,terminal,291,Win
-483,"(12, False, 2)",92,1,0,"(20, False, 2)",252
-483,"(20, False, 2)",252,2,-2,terminal,291,Lose
-484,"(12, False, 10)",108,1,0,"(18, False, 10)",228
-484,"(18, False, 10)",228,1,-2,terminal,291,Lose
-485,"(21, True, 11)",289,2,0.5,terminal,291,Tie
-486,"(16, False, 2)",172,2,-2,terminal,291,Lose
-487,"(11, False, 10)",88,1,0,"(17, False, 10)",208
-487,"(17, False, 10)",208,2,-2,terminal,291,Lose
-488,"(13, False, 7)",122,2,-2,terminal,291,Lose
-489,"(19, False, 2)",232,2,1,terminal,291,Win
-490,"(20, False, 5)",258,2,1,terminal,291,Win
-491,"(21, True, 11)",289,2,2,terminal,291,Win
-492,"(16, False, 7)",182,2,-2,terminal,291,Lose
-493,"(14, False, 6)",140,1,0,"(18, False, 6)",220
-493,"(18, False, 6)",220,2,0,terminal,291,Tie
-494,"(21, True, 11)",289,2,2,terminal,291,Win
-495,"(14, False, 10)",148,1,-2,terminal,291,Lose
-496,"(6, False, 10)",29,1,0,"(11, False, 10)",88
-496,"(11, False, 10)",88,1,0,"(19, False, 10)",248
-496,"(19, False, 10)",248,2,1,terminal,291,Win
-497,"(20, False, 7)",262,2,0,terminal,291,Tie
-498,"(12, False, 9)",106,2,1,terminal,291,Win
-499,"(16, False, 3)",174,1,-2,terminal,291,Lose
-500,"(15, False, 9)",166,1,0,"(19, False, 9)",246
-500,"(19, False, 9)",246,2,0,terminal,291,Tie
+469,"(16, False, 10)",188,1,-2,terminal,291,Lose
+470,"(20, False, 7)",262,2,-2,terminal,291,Lose
+471,"(20, False, 6)",260,2,-2,terminal,291,Lose
+472,"(14, False, 10)",148,1,0,"(17, False, 10)",208
+472,"(17, False, 10)",208,2,-2,terminal,291,Lose
+473,"(13, False, 10)",128,2,-2,terminal,291,Lose
+474,"(20, False, 2)",252,2,1,terminal,291,Win
+475,"(12, False, 6)",100,2,1,terminal,291,Win
+476,"(4, False, 6)",5,2,1,terminal,291,Win
+477,"(10, False, 10)",69,1,0,"(19, False, 10)",248
+477,"(19, False, 10)",248,2,-2,terminal,291,Lose
+478,"(20, False, 8)",264,2,0,terminal,291,Tie
+479,"(19, False, 2)",232,2,1,terminal,291,Win
+480,"(10, False, 10)",69,1,0,"(20, False, 10)",268
+480,"(20, False, 10)",268,2,0,terminal,291,Tie
+481,"(9, False, 9)",58,1,0,"(18, False, 9)",226
+481,"(18, False, 9)",226,2,1,terminal,291,Win
+482,"(12, False, 11)",110,1,0,"(15, False, 11)",170
+482,"(15, False, 11)",170,2,-1,terminal,291,Lose
+483,"(19, False, 11)",250,2,-1,terminal,291,Lose
+484,"(14, False, 10)",148,1,0,"(20, False, 10)",268
+484,"(20, False, 10)",268,2,0,terminal,291,Tie
+485,"(15, False, 10)",168,2,-2,terminal,291,Lose
+486,"(13, False, 7)",122,2,-2,terminal,291,Lose
+487,"(15, False, 4)",156,2,-2,terminal,291,Lose
+488,"(15, False, 10)",168,2,1,terminal,291,Win
+489,"(11, False, 8)",84,1,0,"(19, False, 8)",244
+489,"(19, False, 8)",244,2,1,terminal,291,Win
+490,"(11, False, 5)",78,1,0,"(21, False, 5)",278
+490,"(21, False, 5)",278,2,1,terminal,291,Win
+491,"(16, True, 8)",183,1,0,"(14, False, 8)",144
+491,"(14, False, 8)",144,1,-2,terminal,291,Lose
+492,"(20, False, 3)",254,2,1,terminal,291,Win
+493,"(16, False, 6)",180,2,1,terminal,291,Win
+494,"(7, False, 10)",39,1,0,"(10, False, 10)",69
+494,"(10, False, 10)",69,1,0,"(13, False, 10)",128
+494,"(13, False, 10)",128,2,-2,terminal,291,Lose
+495,"(20, True, 10)",267,2,0,terminal,291,Tie
+496,"(17, False, 10)",208,2,0,terminal,291,Tie
+497,"(19, False, 10)",248,2,1,terminal,291,Win
+498,"(14, False, 7)",142,1,-2,terminal,291,Lose
+499,"(20, False, 10)",268,2,1,terminal,291,Win
+500,"(14, False, 9)",146,1,0,"(16, False, 9)",186
+500,"(16, False, 9)",186,1,0,"(17, False, 9)",206
+500,"(17, False, 9)",206,2,-2,terminal,291,Lose

@@ -1,6 +1,5 @@
-import random
 import csv
-from game_sim_num import (initialize_deck, draw_card, adjust_for_ace, dealer_play)
+from data_collection import (initialize_deck, draw_card, adjust_for_ace, dealer_play)
 
 # Load the policy from the file
 def load_policy(policy_file):

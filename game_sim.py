@@ -1,7 +1,4 @@
 import random
-import csv
-number_of_games = 10000
-data_collection = True
 
 # Initialize the deck with 52 cards (4 of each number)
 def initialize_deck():
@@ -81,21 +78,3 @@ def play_game():
             break
 
     return transitions
-
-# Generate multiple games and save to CSV
-def generate_data(num_games=1000):
-    all_transitions = []
-    for _ in range(num_games):
-        game_data = play_game()
-        all_transitions.extend(game_data)
-    
-    with open('qlearning_blackjack_data.csv', mode='w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['state', 'action', 'reward', 'next_state'])
-        for transition in all_transitions:
-            writer.writerow(transition)
-
-if __name__ == '__main__':
-    if data_collection == True:
-        # Run data generation
-        generate_data(number_of_games)
